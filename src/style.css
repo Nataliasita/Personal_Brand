@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+     margin: 0;
+     padding: 0;}
+  
+  body {
+    background-color:rgb(253, 220, 225);
+     /* tamaño de fuente*/
+    font-size: 16px;
+    /* tipo fuente*/
+    font-family: fantasy;
+  }
+  .header {
+      margin: 25px;
+      padding-bottom: 25px;
+      margin-bottom: 20px;
+  }
+  .fondo { 
+    width: 70pc;
+    display:block;
+    margin:auto;
+  }
+  .titulo{
+    position: absolute;
+    bottom:3em;
+    right:4em;
+    border-radius:1.5em;
+    color:rgb(231, 42, 190);
+    font-family: fantasy;
+    font-size: 100px;
+    background-color:rgba(253, 220, 225, 0.76);
+  }
+  .comprar{
+    position: absolute;
+    bottom:4em;
+    right:24em;
+    background-color:rgb(165, 2, 138);
+    border-radius:1.5em;
+    color:white;
+    font-family: fantasy;
+    font-size: 25px;
+    padding:1em 2em;
+  }
+  .imagen{
+    width: 22%;
+    border-radius:9em;
+    display:inline-block;  
+    vertical-align:top;
+    margin-left: 113px;
+    margin-top: 15px;
+  }
+  .descripcion{
+    width: 22%;
+    display:inline-block;
+    padding:10px 20px;
+    margin-left: 113px;
+    margin-top: 10px;
+    text-align:center;
+    background-color:rgba(253, 253, 253, 0.89);
+    font-size: 30px;
+  }
+  .intro{
+    bottom:8.5em;
+    right:6em;
+    color:rgb(179, 15, 143);
+    font-family: fantasy;
+    font-size: 60px;
+    background-color:rgba(253, 253, 253, 0.89);
+    text-align:center;
+  }
+  .precio{
+    width: 22%;
+    display:inline-block;
+    padding:10px 20px;
+    margin-left: 113px;
+    margin-top: 10px;
+    text-align:center;
+    color:rgb(165, 2, 138);
+    font-family: fantasy;
+    font-size: 50px;
+  }
+  .carrito{
+    position:relative;
+    bottom:0.2em;
+    left: -3.2em ;
+    display:inline-block;
+    background-color:rgb(248, 21, 161);
+    border-radius:1.5em;
+    color:white;
+    font-family: fantasy;
+    font-size: 25px;
+    padding:0.2em 1.42em;
+    width:auto;
+    text-align:center;
+    margin-inline-start: 269px;
+    writing-mode: horizontal;
+  }
+  .imagen2{
+    position:absolute;
+    width: 18%;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 15px auto auto 100px;
+    border-radius:9em; 
+  } 
+  .descripcion_valor{
+    width: 250px;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 50px auto auto 380px;
+    text-align:  center;
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+    background-color:rgba(236, 39, 131, 0.89);
+    border: 3px solid rgb(97, 1, 60);
+  }
+  .descripcion_detalle{
+    width: 250px;
+    padding:10px 20px;
+    margin: auto auto auto 380px;
+    font-size: 30px;
+    text-align:  center;
+  }  
+  .pago_seguro{
+    position:absolute;
+    display:inline-block; 
+    top:  90px;
+    right: 263px;
+    color:rgb(165, 2, 138);
+    font-size: 35px; 
+  } 
+  .form{
+    position:absolute;
+    top:  140px;
+    right: 6em;
+    color :rgb(105, 3, 74);
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: white;
+    padding: 10 px 20 px;
+    width: 450px;
+    align-items: center;
+    text-align: center;
+  }
+    .resume{
+    bottom:8.5em;
+    right:6em;
+    color:rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 50px;
+    background-color:rgba(236, 39, 131, 0.89);
+    text-align:center;
+    border: 3px solid rgb(97, 1, 60);
+  }
+  .seleccionado{
+    width: 400px;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 20px auto auto 32px;
+    text-align:center;
+    font-size: 35px;  
+    color:rgb(165, 2, 138);
+    font-family: fantasy;
+  }
+  .validar{ 
+    position: absolute;
+    bottom:3em;
+    left:250px;
+    background-color:rgba(236, 39, 131, 0.89);
+    border-radius:1.5em;
+    color:white;
+    font-family: fantasy;
+    font-size: 30px;
+    padding:1em 2em;
+  }
+  
