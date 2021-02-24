@@ -43,6 +43,8 @@ validar.onclick= function(){
   let numerosIsValid = document.getElementById("numerotc").value.split("");   
 
  let numerosMaskify = document.getElementById("numerotc").value.split(""); 
+
+ console.log("funcion isvalid",validator.isValid(numerosIsValid));
   validator.isValid(numerosIsValid);
   validator.maskify(numerosMaskify);
 /*console.log(validator.resultado);

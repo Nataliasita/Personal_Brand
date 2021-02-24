@@ -1,98 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mac Cosmetics</title>
-   
-    <link rel="stylesheet" href="style.css">
-  </head>
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mac Cosmetics</title>
 
-      <h1 class="titulo"> Sale Make Up </h1>
-      <img src="images/makeup.jpg" class ="fondo">
-      <button id="comprar" class="comprar"> Comprar </button>
-    </header>
-  
-     <div class="seleccion" style="display: none;">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-       <h1 class="intro"> Productos disponibles </h1>
+<body>
+  <header class="header">
 
-         <img src="images/paleta sombras.jpg" class="imagen">
-         <img src="images/brochas.jpg" class="imagen">
-         <img src="images/labiales.jpg" class="imagen">
-    
-         <h2 class="descripcion"> Paleta Sombras </h2>
-         <h2 class="descripcion"> Set Brochas </h2>
-         <h2 class="descripcion"> Set Labiales </h2>
+    <h1 class="titulo"> Sale Make Up </h1>
+    <img src="images/makeup.jpg" class="fondo">
+    <button id="comprar" class="comprar"> Comprar </button>
+  </header>
 
-         <h2 class="precio"> $350.000</h2>
-         <h2 class="precio"> $200.000</h2>
-         <h2 class="precio"> $125.000</h2>
-      
-         <button id="carrito1" class="carrito"> Carrito </button>
-         <button id="carrito2" class="carrito"> Carrito </button>
-         <button id="carrito3" class="carrito"> Carrito </button> 
-     </div>
+  <div class="seleccion" style="display: none;">
 
-     <div class="tarjeta" style="display: none;">
-     
-        <h1 class = "resume">Resumen de tu compra</h1>
-       
-           <h2 class="seleccionado">Producto Seleccionado</h2>
-       
-           <div id="image1" style="display: none;">
-            <img src="images/paleta sombras.jpg" class="imagen2">
-           </div>
-        
-           <div id="image2" style="display: none;">
-             <img src="images/brochas.jpg" class="imagen2">
-           </div>
+    <h1 class="intro"> Productos disponibles </h1>
 
-           <div id="image3" style="display: none;">
-             <img src="images/labiales.jpg" class="imagen2">
-           </div>
-        
-         <p id="valor" class="descripcion_valor"></p>
-        <p id="detalle" class="descripcion_detalle"></p>
-        
-         <h3 class="pago_seguro">Pago seguro</h3>
+    <img src="images/paleta sombras.jpg" class="imagen">
+    <img src="images/brochas.jpg" class="imagen">
+    <img src="images/labiales.jpg" class="imagen">
 
-        <form action="" class="form">
-           <br>
-           <label>Nombre del titular</label><br>
-           <input type="text" name = "titular" placeholder="Ej: Maria Gomez"> <br>
-          <br>
-          <label>Tipo de documento</label><br>
-          <select name="tipo">
-          <option value="1">Cedula de ciudadania</option>
-          <option value="2">Cedula de extranjeria</option>
-          </select><br>
-          <br>
-          <label>N° de identificacion</label><br>
-          <input type="text" name = "identificacion" placeholder="Ej: 11111111"><br>
-          <br>
-          <label>Numero de la tarjeta</label><br>
-          <input type="text" id ="numerotc" placeholder="0000 0000 0000 0000"> <br>
-          <br>
-          <label>Fecha de expiracion MM/AA</label><br>
-          <input type="text" name="exp" placeholder="12/20"> <br>
-          <br>
-           <h3>Total a pagar</h3><p id="final"></p>
-          <br>
-        </form>
+    <h2 class="descripcion"> Paleta Sombras </h2>
+    <h2 class="descripcion"> Set Brochas </h2>
+    <h2 class="descripcion"> Set Labiales </h2>
 
-        <button id="validar" class="validar">Confirmar compra</button>  
-      </div>
+    <h2 class="precio"> $350.000</h2>
+    <h2 class="precio"> $200.000</h2>
+    <h2 class="precio"> $125.000</h2>
 
-     <div class="verificacion" style="display: none;">
-        <p id="ver1"></p>
-        <p id="ver2"></p>
-     </div>
+    <button id="carrito1" class="carrito"> Carrito </button>
+    <button id="carrito2" class="carrito"> Carrito </button>
+    <button id="carrito3" class="carrito"> Carrito </button>
+  </div>
 
-    
-     <script src="index.js" type="module"></script>
-  </body>
+  <div class="tarjeta" style="display: none;">
+
+    <h1 class="resume">Resumen de tu compra</h1>
+
+    <h2 class="seleccionado">Producto Seleccionado</h2>
+
+    <div id="image1" style="display: none;">
+      <img src="images/paleta sombras.jpg" class="imagen2">
+    </div>
+
+    <div id="image2" style="display: none;">
+      <img src="images/brochas.jpg" class="imagen2">
+    </div>
+
+    <div id="image3" style="display: none;">
+      <img src="images/labiales.jpg" class="imagen2">
+    </div>
+
+    <p id="valor" class="descripcion_valor"></p>
+    <p id="detalle" class="descripcion_detalle"></p>
+
+    <h3 class="pago_seguro">Pago seguro</h3>
+
+    <form action="" class="form">
+      <br>
+      <label>Nombre del titular</label><br>
+      <input type="text" name="titular" placeholder="Ej: Maria Gomez"> <br>
+      <br>
+      <label>Tipo de documento</label><br>
+      <select name="tipo">
+        <option value="1">Cedula de ciudadania</option>
+        <option value="2">Cedula de extranjeria</option>
+      </select><br>
+      <br>
+      <label>N° de identificacion</label><br>
+      <input type="text" name="identificacion" placeholder="Ej: 11111111"><br>
+      <br>
+      <label>Numero de la tarjeta</label><br>
+      <input type="text" id="numerotc" placeholder="0000 0000 0000 0000"> <br>
+      <br>
+      <label>Fecha de expiracion MM/AA</label><br>
+      <input type="text" name="exp" placeholder="12/20"> <br>
+      <br>
+      <h3>Total a pagar</h3>
+      <p id="final"></p>
+      <br>
+    </form>
+
+    <button id="validar" class="validar">Confirmar compra</button>
+  </div>
+
+  <div class="verificacion" style="display: none;">
+    <p id="ver1"></p>
+    <p id="ver2"></p>
+  </div>
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
