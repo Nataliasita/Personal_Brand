@@ -170,4 +170,33 @@
     font-size: 30px;
     padding:1em 2em;
   }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  }
+  .transfinal{
+    bottom:8.5em;
+    right:6em;
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    background-color:rgb(165, 2, 138);
+    text-align: right;
+    border: 3px solid rgb(97, 1, 60);
+  }
+  .data{
+    position:absolute;
+    top:  140px;
+    right: 6em;
+    color :rgb(105, 3, 74);
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: white;
+    padding: 10 px 20 px;
+    width: 450px;
+    align-items: center;
+    text-align: center;
+  }
+
   

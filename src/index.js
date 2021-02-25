@@ -61,17 +61,22 @@ validar.onclick= function(){
   let validado = validator.isValid(numerosIsValid);
   let enmascarado = validator.maskify(numerosMaskify);
 
-  if (validado === true)
+  if (validado === true && nombre_usuario.length >0 && 
+   numero_identificacion.length >6 && numero_identificacion.length <11 && fecha_expiracion.length ==4 )
   { 
-    document.getElementById("confirmacion_nombre").textContent = nombre_usuario; 
-    document.getElementById("confirmacion_tipo_documento").textContent = tipo_identificacion; 
-    document.getElementById("confirmacion_numero_documento").textContent = numero_identificacion; 
-    document.getElementById("confirmacion_numero_tarjeta").textContent = enmascarado; 
-    document.getElementById("confirmacion_fecha_expiracion").textContent = fecha_expiracion; 
+    
+    document.getElementById("aprobacion").textContent = "TRANSACCION APROBADA";
+    document.getElementById("aprobado").style.display = "block";
+    document.getElementById("confirmacion_nombre").textContent = "Nombre : " + nombre_usuario; 
+    document.getElementById("confirmacion_tipo_documento").textContent = "Tipo ID : " + tipo_identificacion; 
+    document.getElementById("confirmacion_numero_documento").textContent = "Numero ID : " + numero_identificacion; 
+    document.getElementById("confirmacion_numero_tarjeta").textContent = "Numero Tarjeta : " + enmascarado; 
+    document.getElementById("confirmacion_fecha_expiracion").textContent = "Fecha Expiracion : " + fecha_expiracion; 
     document.getElementById("confirmacion_valor_producto").textContent = valor_pagar;
   }
   else{
-    document.getElementById("confirmacion_nombre").textContent = "TRANSACCION DENEGADA";
+    document.getElementById("aprobacion").textContent = "TRANSACCION DENEGADA";
+    document.getElementById("denegado").style.display = "block"; 
   }  
 }
 }

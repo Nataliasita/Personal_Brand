@@ -73,13 +73,13 @@
       </select><br>
       <br>
       <label>N° de identificacion</label><br>
-      <input type="text" id="numero_identificacion" placeholder="Ej: 11111111" required><br>
+      <input type="number" id="numero_identificacion" placeholder="Ej: 11111111" required><br>
       <br>
       <label>Numero de la tarjeta</label><br>
-      <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
+      <input type="number" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
       <br>
       <label>Fecha de expiracion MM/AA</label><br>
-      <input type="text" id="fecha_expiracion" placeholder="12/20" required> <br>
+      <input type="number" id="fecha_expiracion" placeholder="12/20" required> <br>
       <br>
       <h3>Total a pagar</h3>
       <p id="final"></p>
@@ -90,12 +90,27 @@
   </div>
 
   <div class="verificacion" style="display: none;">
-    <p id="confirmacion_nombre"></p>
-    <p id="confirmacion_tipo_documento"></p>
-    <p id="confirmacion_numero_documento"></p>
-    <p id="confirmacion_numero_tarjeta"></p>
-    <p id="confirmacion_fecha_expiracion"></p>
-    <p id="confirmacion_valor_producto"></p>  
+
+    <h1 class="transfinal"> Pago seguro </h1>
+
+    <p id="aprobacion"></p>
+    <div id="aprobado" style="display: none;">    
+      <img src="images/aprobado.jpeg" class="aprobacion">      
+     </div>
+
+    <div id="denegado" style="display: none;">
+      <img src="images/denegado.jpeg" class="aprobacion">
+    </div>   
+    
+     <div class="data">
+      <p id="confirmacion_nombre"></p>
+      <p id="confirmacion_tipo_documento"></p>
+      <p id="confirmacion_numero_documento"></p>
+      <p id="confirmacion_numero_tarjeta"></p>
+      <p id="confirmacion_fecha_expiracion"></p>
+      <p id="confirmacion_valor_producto"></p>  
+     </div>
+
   </div>
 
 
