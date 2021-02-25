@@ -64,22 +64,22 @@
     <form action="" class="form">
       <br>
       <label>Nombre del titular</label><br>
-      <input type="text" name="titular" placeholder="Ej: Maria Gomez"> <br>
+      <input type="text" id="titular" placeholder="Ej: Maria Gomez" required> <br>
       <br>
       <label>Tipo de documento</label><br>
-      <select name="tipo">
-        <option value="1">Cedula de ciudadania</option>
-        <option value="2">Cedula de extranjeria</option>
+      <select id="tipo_identificacion">
+        <option value="CC">Cedula de ciudadania</option>
+        <option value="CE">Cedula de extranjeria</option>
       </select><br>
       <br>
       <label>N° de identificacion</label><br>
-      <input type="text" name="identificacion" placeholder="Ej: 11111111"><br>
+      <input type="text" id="numero_identificacion" placeholder="Ej: 11111111" required><br>
       <br>
       <label>Numero de la tarjeta</label><br>
-      <input type="text" id="numerotc" placeholder="0000 0000 0000 0000"> <br>
+      <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
       <br>
       <label>Fecha de expiracion MM/AA</label><br>
-      <input type="text" name="exp" placeholder="12/20"> <br>
+      <input type="text" id="fecha_expiracion" placeholder="12/20" required> <br>
       <br>
       <h3>Total a pagar</h3>
       <p id="final"></p>
@@ -90,8 +90,12 @@
   </div>
 
   <div class="verificacion" style="display: none;">
-    <p id="ver1"></p>
-    <p id="ver2"></p>
+    <p id="confirmacion_nombre"></p>
+    <p id="confirmacion_tipo_documento"></p>
+    <p id="confirmacion_numero_documento"></p>
+    <p id="confirmacion_numero_tarjeta"></p>
+    <p id="confirmacion_fecha_expiracion"></p>
+    <p id="confirmacion_valor_producto"></p>  
   </div>
 
 
