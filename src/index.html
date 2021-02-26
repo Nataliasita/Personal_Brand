@@ -79,7 +79,7 @@
       <input type="number" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
       <br>
       <label>Fecha de expiracion MM/AA</label><br>
-      <input type="number" id="fecha_expiracion" placeholder="12/20" required> <br>
+      <input type="number" id="fecha_expiracion" placeholder="12/20" required><br>
       <br>
       <h3>Total a pagar</h3>
       <p id="final"></p>
@@ -91,25 +91,43 @@
 
   <div class="verificacion" style="display: none;">
 
-    <h1 class="transfinal"> Pago seguro </h1>
+    <img src="images/MAC.jpg" class="transfinal"> 
 
     <p id="aprobacion"></p>
     <div id="aprobado" style="display: none;">    
-      <img src="images/aprobado.jpeg" class="aprobacion">      
+      <img src="images/aprobado.jpg" class="imgfinal">
+      <p class="tu">__________Tu transaccion ha sido aprobada</p>      
      </div>
 
     <div id="denegado" style="display: none;">
-      <img src="images/denegado.jpeg" class="aprobacion">
+      <img src="images/denegado.jpeg" class="imgfinal">
+      <p class="tu">__________Tu transaccion ha sido denegada</p>
+        <div id="entidad"><br>
+          <br>
+          <h2 >Por favor comunicate con </h2><br>
+          <h2>tu entidad financiera</h3></h2><br>
+          <br>
+        </div>
     </div>   
     
-     <div class="data">
+     <div class="data" id="dat">
+      <br>
       <p id="confirmacion_nombre"></p>
+      <br>
       <p id="confirmacion_tipo_documento"></p>
+      <br>
       <p id="confirmacion_numero_documento"></p>
+      <br>
       <p id="confirmacion_numero_tarjeta"></p>
+      <br>
       <p id="confirmacion_fecha_expiracion"></p>
-      <p id="confirmacion_valor_producto"></p>  
+      <br>
+      <p id="confirmacion_valor_producto"></p>
+      <br>
+
      </div>
+
+     <button id="regresar" class="regreso">Regresar</button>
 
   </div>
 

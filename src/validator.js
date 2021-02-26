@@ -46,7 +46,7 @@ function maskify(numerosMaskify) {
   //console.log(borrar);
   let mascara = numerosMaskify;
   for (let i = 0; i < (mascara.length - 4); i++) {
-    mascara[i] = "#";
+    mascara[i] = "*";
   }
   let enviar_mascara=mascara.join("");
   console.log(enviar_mascara);

@@ -67,16 +67,18 @@ validar.onclick= function(){
     
     document.getElementById("aprobacion").textContent = "TRANSACCION APROBADA";
     document.getElementById("aprobado").style.display = "block";
-    document.getElementById("confirmacion_nombre").textContent = "Nombre : " + nombre_usuario; 
+    document.getElementById("confirmacion_nombre").textContent = "Titular : " + nombre_usuario; 
     document.getElementById("confirmacion_tipo_documento").textContent = "Tipo ID : " + tipo_identificacion; 
     document.getElementById("confirmacion_numero_documento").textContent = "Numero ID : " + numero_identificacion; 
     document.getElementById("confirmacion_numero_tarjeta").textContent = "Numero Tarjeta : " + enmascarado; 
     document.getElementById("confirmacion_fecha_expiracion").textContent = "Fecha Expiracion : " + fecha_expiracion; 
-    document.getElementById("confirmacion_valor_producto").textContent = valor_pagar;
+    document.getElementById("confirmacion_valor_producto").textContent = "Valor total aprobado : " + valor_pagar;
   }
   else{
     document.getElementById("aprobacion").textContent = "TRANSACCION DENEGADA";
-    document.getElementById("denegado").style.display = "block"; 
+    document.getElementById("denegado").style.display = "block"
+    document.getElementById("dat").style.display = "none"; 
   }  
 }
+
 }
