@@ -4,48 +4,49 @@ cambio_paginas();
 
 function cambio_paginas(){
 
-let comprar = document.getElementById("comprar"); 
-comprar.onclick= function(){
+let boton_comprar = document.getElementById("boton_comprar"); 
+boton_comprar.onclick= function(){
   document.querySelector(".header").style.display = "none";
-  document.querySelector(".seleccion").style.display = "block"; 
+  document.querySelector(".seleccion_productos").style.display = "block"; 
 }
 
 let valor_pagar;
-let carrito1 = document.getElementById("carrito1"); 
-carrito1.onclick= function(){
-  document.querySelector(".seleccion").style.display = "none";
-  document.querySelector(".tarjeta").style.display = "block"; 
-  document.getElementById("detalle").textContent = "Paleta Sombras";
-  document.getElementById("valor").textContent = "$350.000";
+let boton_carrito1 = document.getElementById("boton_carrito1"); 
+boton_carrito1.onclick= function(){
+  document.querySelector(".seleccion_productos").style.display = "none";
+  document.querySelector(".ingresar_informacion").style.display = "block"; 
+  document.getElementById("detalle_compra").textContent = "Paleta Sombras";
+  document.getElementById("detalle_valor").textContent = "$350.000";
   document.getElementById("image1").style.display = "block";
-  document.getElementById("final").textContent = "$350.000"; 
+  document.getElementById("precio_final").textContent = "$350.000"; 
   valor_pagar="$350.000";
 }
 
-let carrito2 = document.getElementById("carrito2");  carrito2.onclick= function(){
-  document.querySelector(".seleccion").style.display = "none";
-  document.querySelector(".tarjeta").style.display = "block"; 
-  document.getElementById("detalle").textContent = "Set Brochas";
-  document.getElementById("valor").textContent = "$200.000";
+let boton_carrito2 = document.getElementById("boton_carrito2");  
+boton_carrito2.onclick= function(){
+  document.querySelector(".seleccion_productos").style.display = "none";
+  document.querySelector(".ingresar_informacion").style.display = "block"; 
+  document.getElementById("detalle_compra").textContent = "Set Brochas";
+  document.getElementById("detalle_valor").textContent = "$200.000";
   document.getElementById("image2").style.display = "block"; 
-  document.getElementById("final").textContent = "$200.000";
+  document.getElementById("precio_final").textContent = "$200.000";
   valor_pagar="$200.000";
 }
 
-let carrito3 = document.getElementById("carrito3");  
-carrito3.onclick= function(){
-  document.querySelector(".seleccion").style.display = "none";
-  document.querySelector(".tarjeta").style.display = "block"; 
-  document.getElementById("detalle").textContent = "Set Labiales";
-  document.getElementById("valor").textContent = "$125.000";
+let boton_carrito3 = document.getElementById("boton_carrito3");  
+boton_carrito3.onclick= function(){
+  document.querySelector(".seleccion_productos").style.display = "none";
+  document.querySelector(".ingresar_informacion").style.display = "block"; 
+  document.getElementById("detalle_compra").textContent = "Set Labiales";
+  document.getElementById("detalle_valor").textContent = "$125.000";
   document.getElementById("image3").style.display = "block";
-  document.getElementById("final").textContent = "$125.000"; 
+  document.getElementById("precio_final").textContent = "$125.000"; 
   valor_pagar="$125.000";
 }
 
-let validar = document.getElementById("validar"); 
-validar.onclick= function(){
-  document.querySelector(".tarjeta").style.display = "none";
+let boton_validar = document.getElementById("boton_validar"); 
+boton_validar.onclick= function(){
+  document.querySelector(".ingresar_informacion").style.display = "none";
   document.querySelector(".verificacion").style.display = "block"; 
  
   let nombre_usuario = document.getElementById("titular").value;
@@ -58,15 +59,17 @@ validar.onclick= function(){
   console.log("funcion isvalid",validator.isValid(numerosIsValid));
   console.log("funcion maskify",validator.maskify(numerosMaskify));
  
-  let validado = validator.isValid(numerosIsValid);
+  const xxx = validator.isValid(numerosIsValid);
   let enmascarado = validator.maskify(numerosMaskify);
-
-  if (validado === true && nombre_usuario.length >0 && 
-   numero_identificacion.length >6 && numero_identificacion.length <11 && fecha_expiracion.length ==4 )
+  console.log("PRUEBA!!!!!!!",xxx);
+// 
+  if (validator.isValid(numerosIsValid) === true && nombre_usuario.length >0 && 
+  numero_identificacion.length >6 && numero_identificacion.length <11 && fecha_expiracion.length ==4)
   { 
-    
-    document.getElementById("aprobacion").textContent = "TRANSACCION APROBADA";
-    document.getElementById("aprobado").style.display = "block";
+    document.getElementById("letrero_aprobacion").textContent = "TRANSACCION APROBADA";
+    document.getElementById("imagen_denegado").style.display = "none";
+    document.getElementById("imagen_aprobado").style.display = "block";
+    document.getElementById("informacion_confirmacion").style.display = "block";
     document.getElementById("confirmacion_nombre").textContent = "Titular : " + nombre_usuario; 
     document.getElementById("confirmacion_tipo_documento").textContent = "Tipo ID : " + tipo_identificacion; 
     document.getElementById("confirmacion_numero_documento").textContent = "Numero ID : " + numero_identificacion; 
@@ -75,10 +78,17 @@ validar.onclick= function(){
     document.getElementById("confirmacion_valor_producto").textContent = "Valor total aprobado : " + valor_pagar;
   }
   else{
-    document.getElementById("aprobacion").textContent = "TRANSACCION DENEGADA";
-    document.getElementById("denegado").style.display = "block"
-    document.getElementById("dat").style.display = "none"; 
+    document.getElementById("letrero_aprobacion").textContent = "TRANSACCION DENEGADA";
+    document.getElementById("imagen_aprobado").style.display = "none";
+    document.getElementById("imagen_denegado").style.display = "block";
+    document.getElementById("informacion_confirmacion").style.display = "none"; 
   }  
+}
+
+let boton_regreso = document.getElementById("boton_regreso"); 
+boton_regreso.onclick= function(){
+  document.querySelector(".verificacion").style.display = "none";
+  document.querySelector(".header").style.display = "block"; 
 }
 
 }

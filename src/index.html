@@ -14,50 +14,50 @@
 
     <h1 class="titulo"> Sale Make Up </h1>
     <img src="images/makeup.jpg" class="fondo">
-    <button id="comprar" class="comprar"> Comprar </button>
+    <button id="boton_comprar" class="boton_comprar"> Comprar </button>
   </header>
 
-  <div class="seleccion" style="display: none;">
+  <div class="seleccion_productos" style="display: none;">
 
-    <h1 class="intro"> Productos disponibles </h1>
+    <h1 class="boton_intro"> Productos disponibles </h1>
 
-    <img src="images/paleta sombras.jpg" class="imagen">
-    <img src="images/brochas.jpg" class="imagen">
-    <img src="images/labiales.jpg" class="imagen">
+    <img src="images/paleta sombras.jpg" class="imagen_seleccion">
+    <img src="images/brochas.jpg" class="imagen_seleccion">
+    <img src="images/labiales.jpg" class="imagen_seleccion">
 
-    <h2 class="descripcion"> Paleta Sombras </h2>
-    <h2 class="descripcion"> Set Brochas </h2>
-    <h2 class="descripcion"> Set Labiales </h2>
+    <h2 class="descripcion_compras"> Paleta Sombras </h2>
+    <h2 class="descripcion_compras"> Set Brochas </h2>
+    <h2 class="descripcion_compras"> Set Labiales </h2>
 
-    <h2 class="precio"> $350.000</h2>
-    <h2 class="precio"> $200.000</h2>
-    <h2 class="precio"> $125.000</h2>
+    <h2 class="precio1"> $350.000</h2>
+    <h2 class="precio1"> $200.000</h2>
+    <h2 class="precio1"> $125.000</h2>
 
-    <button id="carrito1" class="carrito"> Carrito </button>
-    <button id="carrito2" class="carrito"> Carrito </button>
-    <button id="carrito3" class="carrito"> Carrito </button>
+    <button id="boton_carrito1" class="boton_carrito"> Carrito </button>
+    <button id="boton_carrito2" class="boton_carrito"> Carrito </button>
+    <button id="boton_carrito3" class="boton_carrito"> Carrito </button>
   </div>
 
-  <div class="tarjeta" style="display: none;">
+  <div class="ingresar_informacion" style="display: none;">
 
     <h1 class="resume">Resumen de tu compra</h1>
 
-    <h2 class="seleccionado">Producto Seleccionado</h2>
+    <h2 class="producto_seleccionado">Producto Seleccionado</h2>
 
     <div id="image1" style="display: none;">
-      <img src="images/paleta sombras.jpg" class="imagen2">
+      <img src="images/paleta sombras.jpg" class="imagen_producto">
     </div>
 
     <div id="image2" style="display: none;">
-      <img src="images/brochas.jpg" class="imagen2">
+      <img src="images/brochas.jpg" class="imagen_producto">
     </div>
 
     <div id="image3" style="display: none;">
-      <img src="images/labiales.jpg" class="imagen2">
+      <img src="images/labiales.jpg" class="imagen_producto">
     </div>
 
-    <p id="valor" class="descripcion_valor"></p>
-    <p id="detalle" class="descripcion_detalle"></p>
+    <p id="detalle_valor" class="detalle_valor"></p>
+    <p id="detalle_compra" class="detalle_compra"></p>
 
     <h3 class="pago_seguro">Pago seguro</h3>
 
@@ -76,33 +76,34 @@
       <input type="number" id="numero_identificacion" placeholder="Ej: 11111111" required><br>
       <br>
       <label>Numero de la tarjeta</label><br>
-      <input type="number" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
+      <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
       <br>
       <label>Fecha de expiracion MM/AA</label><br>
       <input type="number" id="fecha_expiracion" placeholder="12/20" required><br>
       <br>
       <h3>Total a pagar</h3>
-      <p id="final"></p>
+      <p id="precio_final"></p>
       <br>
     </form>
 
-    <button id="validar" class="validar">Confirmar compra</button>
+    <button id="boton_validar" class="boton_validar">Confirmar compra</button>
   </div>
 
   <div class="verificacion" style="display: none;">
 
-    <img src="images/MAC.jpg" class="transfinal"> 
+    <img src="images/MAC.jpg" class="imagen_final"> 
 
-    <p id="aprobacion"></p>
-    <div id="aprobado" style="display: none;">    
-      <img src="images/aprobado.jpg" class="imgfinal">
-      <p class="tu">__________Tu transaccion ha sido aprobada</p>      
+    <p id="letrero_aprobacion"></p>
+    
+    <div id="imagen_aprobado" style="display: none;">    
+      <img src="images/aprobado.jpg" class="imagen_aprobacion">
+      <p class="tu_transaccion">__________Tu transaccion ha sido aprobada</p>      
      </div>
 
-    <div id="denegado" style="display: none;">
-      <img src="images/denegado.jpeg" class="imgfinal">
-      <p class="tu">__________Tu transaccion ha sido denegada</p>
-        <div id="entidad"><br>
+    <div id="imagen_denegado" style="display: none;">
+      <img src="images/denegado.jpeg" class="imagen_aprobacion">
+      <p class="tu_transaccion">__________Tu transaccion ha sido denegada</p>
+        <div id="comunicarse_entidad"><br>
           <br>
           <h2 >Por favor comunicate con </h2><br>
           <h2>tu entidad financiera</h3></h2><br>
@@ -110,7 +111,7 @@
         </div>
     </div>   
     
-     <div class="data" id="dat">
+     <div class="informacion_confirmacion" id="informacion_confirmacion">
       <br>
       <p id="confirmacion_nombre"></p>
       <br>
@@ -124,10 +125,9 @@
       <br>
       <p id="confirmacion_valor_producto"></p>
       <br>
-
      </div>
 
-     <button id="regresar" class="regreso">Regresar</button>
+     <button id="boton_regreso" class="boton_regreso">Regresar</button>
 
   </div>
 
