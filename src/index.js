@@ -61,11 +61,13 @@ boton_validar.onclick= function(){
  
   const xxx = validator.isValid(numerosIsValid);
   let enmascarado = validator.maskify(numerosMaskify);
-  console.log("PRUEBA!!!!!!!",xxx);
+  console.log("PRUEBA!!!!!!!",fecha_expiracion);
 // 
   if (validator.isValid(numerosIsValid) === true && nombre_usuario.length >0 && 
-  numero_identificacion.length >6 && numero_identificacion.length <11 && fecha_expiracion.length ==4)
+  numero_identificacion.length >6 && numero_identificacion.length <11 &&
+  nombre_usuario.checkValidity() === true)
   { 
+    console.log("valido");
     document.getElementById("letrero_aprobacion").textContent = "TRANSACCION APROBADA";
     document.getElementById("imagen_denegado").style.display = "none";
     document.getElementById("imagen_aprobado").style.display = "block";
@@ -78,6 +80,7 @@ boton_validar.onclick= function(){
     document.getElementById("confirmacion_valor_producto").textContent = "Valor total aprobado : " + valor_pagar;
   }
   else{
+    console.log("invalido");
     document.getElementById("letrero_aprobacion").textContent = "TRANSACCION DENEGADA";
     document.getElementById("imagen_aprobado").style.display = "none";
     document.getElementById("imagen_denegado").style.display = "block";

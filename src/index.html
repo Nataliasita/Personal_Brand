@@ -64,7 +64,7 @@
     <form action="" class="form">
       <br>
       <label>Nombre del titular</label><br>
-      <input type="text" id="titular" placeholder="Ej: Maria Gomez" required> <br>
+      <input type="text" class="nombre" id="titular" placeholder="Ej: Maria Gomez" pattern="[a-z]{7,15}" required> <br>
       <br>
       <label>Tipo de documento</label><br>
       <select id="tipo_identificacion">
@@ -73,13 +73,13 @@
       </select><br>
       <br>
       <label>N° de identificacion</label><br>
-      <input type="number" id="numero_identificacion" placeholder="Ej: 11111111" required><br>
+      <input type="number" id="numero_identificacion" placeholder="Ej: 11111111" pattern="[a-z]{2}"><br>
       <br>
       <label>Numero de la tarjeta</label><br>
-      <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
+      <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required > <br>
       <br>
       <label>Fecha de expiracion MM/AA</label><br>
-      <input type="number" id="fecha_expiracion" placeholder="12/20" required><br>
+      <input type="month" id="fecha_expiracion" placeholder="12/20" min="2021-06" max="2025-12"required><br>
       <br>
       <h3>Total a pagar</h3>
       <p id="precio_final"></p>
@@ -113,7 +113,7 @@
     
      <div class="informacion_confirmacion" id="informacion_confirmacion">
       <br>
-      <p id="confirmacion_nombre"></p>
+      <p class="nombre" id="confirmacion_nombre"></p>
       <br>
       <p id="confirmacion_tipo_documento"></p>
       <br>
@@ -135,4 +135,20 @@
   <script src="index.js" type="module"></script>
 </body>
 
+<footer>
+
+    <main>
+    <br>
+    <p> Nuestros productos son una forma de arte... </p><br>
+    <br>
+    <img src = "images/logo.jpeg" class=final_footer>
+
+    <h4>Contactanos </h4>
+    <br>
+    <p> servicio@maccosmetics.com </p>
+    <br>
+ 
+    </main>
+
+</footer>
 </html>

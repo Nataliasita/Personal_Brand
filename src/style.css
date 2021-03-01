@@ -138,7 +138,10 @@
     padding: 10 px 20 px;
     width: 450px;
     align-items: center;
-    text-align: center;
+    text-align: center; 
+  }
+  .nombre{
+    text-transform: capitalize;
   }
     .resume{
     bottom:8.5em;
@@ -264,6 +267,19 @@
     padding:1em 2em;
     height: 12%;
     margin-bottom: 15px;
+  }
+  .final_footer{
+      display:block;
+      padding: 1.5em;
+  }
+  footer{
+    column-count:3;
+    background-color:rgb(233, 102, 200);
+    color:white;
+    font-family: fantasy;
+    font-size: 16x;
+    height:8%;
+    top: 4em;
   }
 
 
