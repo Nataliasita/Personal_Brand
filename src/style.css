@@ -58,6 +58,7 @@
     text-align:center;
     background-color:rgba(253, 253, 253, 0.89);
     font-size: 30px;
+    border-style: inset;
   }
   .boton_intro{
     bottom:8.5em;
@@ -135,15 +136,16 @@
     font-family: fantasy;
     font-size: 20px;
     background-color: white;
-    padding: 10 px 20 px;
     width: 450px;
     align-items: center;
     text-align: center; 
+    border-style: inset;
   }
   .nombre{
     text-transform: capitalize;
   }
     .resume{
+    top: 100%;
     bottom:8.5em;
     right:6em;
     color:rgb(255, 255, 255);
@@ -152,6 +154,7 @@
     background-color:rgba(236, 39, 131, 0.89);
     text-align:center;
     border: 3px solid rgb(97, 1, 60);
+    padding: auto;
   }
   .producto_seleccionado{
     width: 400px;
@@ -190,6 +193,7 @@
     width: 430px;
     align-items: center;
     text-align: center;
+    border-style: inset;
   }
   .imagen_aprobacion{
     position:absolute;
@@ -254,6 +258,7 @@
     width: 430px;
     align-items: center;
     text-align: center;
+    border-style: inset;
   }
   .boton_regreso{
     position: absolute;
@@ -269,18 +274,37 @@
     margin-bottom: 15px;
   }
   .final_footer{
-      display:block;
-      padding: 1.5em;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    border-radius:0.5em;
+    align-items: center;
+    text-align: center;
   }
+  .final_logo{
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    }
   footer{
+    position: absolute;
+    width: 99.9%;
     column-count:3;
     background-color:rgb(233, 102, 200);
     color:white;
     font-family: fantasy;
     font-size: 16x;
-    height:8%;
-    top: 4em;
+    height:19%;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    top: 95%;
+    margin-top: 35px;
+    padding:0;
   }
+
 
 
 
