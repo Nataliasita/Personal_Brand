@@ -18,6 +18,7 @@ function cambio_paginas() {
     document.getElementById("detalle_compra").textContent = "Paleta Sombras";
     document.getElementById("detalle_valor").textContent = "$350.000";
     document.getElementById("image1").style.display = "block";
+    document.getElementById("resena1").style.display = "block";
     document.getElementById("precio_final").textContent = "$350.000";
     valor_pagar = "$350.000";
   }
@@ -29,6 +30,7 @@ function cambio_paginas() {
     document.getElementById("detalle_compra").textContent = "Set Brochas";
     document.getElementById("detalle_valor").textContent = "$200.000";
     document.getElementById("image2").style.display = "block";
+    document.getElementById("resena2").style.display = "block";
     document.getElementById("precio_final").textContent = "$200.000";
     valor_pagar = "$200.000";
   }
@@ -40,6 +42,7 @@ function cambio_paginas() {
     document.getElementById("detalle_compra").textContent = "Set Labiales";
     document.getElementById("detalle_valor").textContent = "$125.000";
     document.getElementById("image3").style.display = "block";
+    document.getElementById("resena3").style.display = "block";
     document.getElementById("precio_final").textContent = "$125.000";
     valor_pagar = "$125.000";
   }

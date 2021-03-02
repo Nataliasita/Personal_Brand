@@ -106,24 +106,27 @@ body {
   margin-inline-start: 269px;
   writing-mode: horizontal;
 }
-
 .imagen_producto {
   position: absolute;
   width: 18%;
-  /* Arriba | Derecha | Abajo | Izquierda */
-  margin: 15px auto auto 100px;
+  left: 90px;
+  top: 33%;
   border-radius: 9em;
 }
-
 .detalle_valor {
-  width: 250px;
-  /* Arriba | Derecha | Abajo | Izquierda */
-  margin: 50px auto auto 380px;
-  text-align: center;
+  top: 90px;
+  margin-top: 100px;
+  margin-left: 380px;
+  height: 18%;
+  width: 260px;
   font-size: 60px;
   color: rgb(255, 255, 255);
   background-color: rgba(236, 39, 131, 0.89);
   border: 3px solid rgb(97, 1, 60);
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  padding: auto;
 }
 
 .detalle_compra {
@@ -133,19 +136,32 @@ body {
   font-size: 30px;
   text-align: center;
 }
-
+.resena{
+  position: absolute;
+  display: inline-block;
+  top: 77%;
+  font-size: 17px;
+  width: 550px;
+  text-align: center;
+  margin-left: 100px;
+  font-style: italic;
+}
 .pago_seguro {
   position: absolute;
   display: inline-block;
-  top: 90px;
-  right: 263px;
-  color: rgb(165, 2, 138);
+  top: 85px;
+  right: 96px;
+  color: white;
   font-size: 35px;
+  background-color: rgb(165, 2, 138);
+  height: 10%;
+  width: 450px;
+  text-align: center;
 }
 
 .form {
   position: absolute;
-  top: 140px;
+  top: 135px;
   right: 6em;
   color: rgb(105, 3, 74);
   font-family: fantasy;
@@ -185,10 +201,10 @@ body {
 .producto_seleccionado {
   width: 400px;
   /* Arriba | Derecha | Abajo | Izquierda */
-  margin: 20px auto auto 32px;
+  margin: 60px auto auto 58px;
   text-align: center;
   font-size: 35px;
-  color: rgb(165, 2, 138);
+  color: rgb(202, 2, 142);
   font-family: fantasy;
 }
 
@@ -203,7 +219,7 @@ body {
   font-family: fantasy;
   font-size: 30px;
   padding: 1em 2em;
-  line-height: 200px;
+  line-height: 10px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
