@@ -93,5 +93,11 @@ boton_regreso.onclick= function(){
   document.querySelector(".verificacion").style.display = "none";
   document.querySelector(".header").style.display = "block"; 
 }
-
+var form = document.getElementById("form");
+form.addEventListener("focus", function( event ) {
+  event.target.style.background = "pink";
+}, true);
+form.addEventListener("blur", function( event ) {
+  event.target.style.background = "";
+}, true);
 }
