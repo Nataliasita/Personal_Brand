@@ -140,11 +140,13 @@ body {
   position: absolute;
   display: inline-block;
   top: 77%;
-  font-size: 17px;
   width: 550px;
   text-align: center;
   margin-left: 100px;
   font-style: italic;
+  font-family: fantasy;
+  color: black;
+  font-size: 15.5px;
 }
 .pago_seguro {
   position: absolute;
@@ -158,7 +160,6 @@ body {
   width: 450px;
   text-align: center;
 }
-
 .form {
   position: absolute;
   top: 135px;

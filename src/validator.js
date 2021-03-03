@@ -1,7 +1,7 @@
 const validator = {
   // ...
   isValid: function isValid(numerosIsValid) {
-    let reversa = numerosIsValid.reverse().map(function (item) {
+    let reversa = numerosIsValid.split("").reverse().map(function (item) {
       return parseInt(item, 10);
     });
     //let x =typeof(nuevo[3]);
@@ -47,7 +47,7 @@ const validator = {
     //console.log(numerosMaskify);
     //let borrar = numerosMaskify.slice(-4).join("");
     //console.log(borrar);
-    let mascara = numerosMaskify;
+    let mascara = numerosMaskify.split("");
     for (let i = 0; i < (mascara.length - 4); i++) {
       mascara[i] = "*";
     }

@@ -53,12 +53,15 @@ function cambio_paginas() {
   formulario.addEventListener("blur", function (event) {
     event.target.style.background = "";
   }, true);
-/*
-  document.getElementById("nombre").addEventListener('keyup', event => {
+
+  document.getElementById("numero_tarjeta").addEventListener('keyup', validacion_tarjeta, false);
+
+  function validacion_tarjeta() {
     if (document.getElementById("numero_tarjeta").value.length > 10) {
       //console.log("entro variable intento")
-      let numerosIsValid = document.getElementById("numero_tarjeta").value.split("");
+      let numerosIsValid = document.getElementById("numero_tarjeta").value;
       //console.log (numerosIsValid);
+      //console.log(validator.isValid("4083952015263"))
       if (validator.isValid(numerosIsValid)) {
         document.getElementById("confirmacion_tarjeta").textContent = "Tarjeta Valida";
         document.getElementById("confirmacion_tarjeta").style.color = "green";
@@ -67,25 +70,7 @@ function cambio_paginas() {
         document.getElementById("confirmacion_tarjeta").style.color = "red";
       }
     }
-
-  });*/
-
-  document.getElementById("numero_tarjeta").addEventListener('keyup', event => {
-    if (document.getElementById("numero_tarjeta").value.length > 10) {
-      //console.log("entro variable intento")
-      let numerosIsValid = document.getElementById("numero_tarjeta").value.split("");
-      //console.log (numerosIsValid);
-      if (validator.isValid(numerosIsValid)) {
-        document.getElementById("confirmacion_tarjeta").textContent = "Tarjeta Valida";
-        document.getElementById("confirmacion_tarjeta").style.color = "green";
-      } else {
-        document.getElementById("confirmacion_tarjeta").textContent = "Tarjeta Invalida";
-        document.getElementById("confirmacion_tarjeta").style.color = "red";
-      }
-    }
-
-  });
-
+  }
   let boton_validar = document.getElementById("boton_validar");
   boton_validar.onclick = function () {
     document.querySelector(".ingresar_informacion").style.display = "none";
@@ -95,8 +80,8 @@ function cambio_paginas() {
     let tipo_identificacion = document.getElementById("tipo_identificacion").value;
     let numero_identificacion = document.getElementById("numero_identificacion").value;
     let fecha_expiracion = document.getElementById("fecha_expiracion").value;
-    let numerosIsValid = document.getElementById("numero_tarjeta").value.split("");
-    let numerosMaskify = document.getElementById("numero_tarjeta").value.split("");
+    let numerosIsValid = document.getElementById("numero_tarjeta").value;
+    let numerosMaskify = document.getElementById("numero_tarjeta").value;
 
     //console.log("funcion isvalid",validator.isValid(numerosIsValid));
     //console.log("funcion maskify",validator.maskify(numerosMaskify));
