@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mac Cosmetics</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <h1 class="titulo"> Sale Make Up </h1>
+    <img src="images/makeup.jpg" class="fondo">
+    <button id="boton_comprar" class="boton_comprar"> Comprar </button>
+  </header>
+
+  <div class="seleccion_productos" style="display: none;">
+
+    <h1 class="boton_intro"> Productos disponibles </h1>
+
+    <img src="images/paleta sombras.jpg" class="imagen_seleccion">
+    <img src="images/brochas.jpg" class="imagen_seleccion">
+    <img src="images/labiales.jpg" class="imagen_seleccion">
+
+    <h2 class="descripcion_compras"> Paleta Sombras </h2>
+    <h2 class="descripcion_compras"> Set Brochas </h2>
+    <h2 class="descripcion_compras"> Set Labiales </h2>
+
+    <h2 class="precio1"> $350.000</h2>
+    <h2 class="precio1"> $200.000</h2>
+    <h2 class="precio1"> $125.000</h2>
+
+    <button id="boton_carrito1" class="boton_carrito"> Carrito </button>
+    <button id="boton_carrito2" class="boton_carrito"> Carrito </button>
+    <button id="boton_carrito3" class="boton_carrito"> Carrito </button>
+  </div>
+
+  <div class="ingresar_informacion" style="display: none;">
+
+    <h1 class="resume">Resumen de tu compra</h1>
+
+    <h2 class="producto_seleccionado">Detalles del producto</h2>
+
+    <div id="image1" style="display: none;">
+      <img src="images/paleta sombras.jpg" class="imagen_producto">
+    </div>
+
+    <div id="image2" style="display: none;">
+      <img src="images/brochas.jpg" class="imagen_producto">
+    </div>
+
+    <div id="image3" style="display: none;">
+      <img src="images/labiales.jpg" class="imagen_producto">
+    </div>
+
+    <p id="detalle_valor" class="detalle_valor"></p>
+    <p id="detalle_compra" class="detalle_compra"></p>
+
+    <p id="resena1" class = "resena" style="display: none;">Esta paleta multiusos, con una gran gama de sombras de ojos en texturas mate y brillantes; tres tonos de rubores, también un iluminador y un bronzing.</p>
+    <p id="resena2" class = "resena" style="display: none;">Brochas de pelo sintético, con mango de madera y dimensiones de 16 x 2 cm. El set incluye las siguientes brochas: Brocha para polvos sueltos, Brocha para colorete, Brocha para polvo uniforme, Brocha para polvo compacto, Variedad de brochas para sombras de ojos, delinear y perfilar los labios.
+    </p>
+    <p id="resena3" class = "resena" style="display: none;">Este set contiene labiales en tamaño viajero, con acabado mate aterciopelado, en tonos atrevidos y ligeros que duran hasta 8 horas. Su fórmula resistente al agua contiene Oil Complex, mezcla de aceites de jojoba, albaricoque y girasol para mantener tus labios cómodos y con un color intacto.</p>
+
+    <h3 class="pago_seguro">Pago seguro</h3>
+
+    <form action="" class="form" id="form">
+      <br>
+      <label>Nombre del titular <br>
+        <input type="text" class="nombre" id="titular" placeholder="Ej: Maria Gomez" pattern="[a-z]{7,15}" required>
+        <br>
+      </label><br>
+      <label>Tipo de documento <br>
+        <select id="tipo_identificacion">
+          <option value="CC">Cedula de ciudadania</option>
+          <option value="CE">Cedula de extranjeria</option>
+        </select></label><br>
+      <br>
+      <label>N° de identificacion<br>
+        <input type="number" id="numero_identificacion" placeholder="Ej: 11111111" pattern="[a-z]{2}" required><br>
+      </label><br>
+      <label>Numero de la tarjeta<br>
+        <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
+        <p id="confirmacion_tarjeta"></p>
+      </label><br>
+      <label>Fecha de expiracion MM/AA<br>
+        <input type="month" id="fecha_expiracion" min="2021-06" max="2025-12" required><br>
+      </label><br>
+      <h3>Total a pagar</h3>
+      <p id="precio_final"></p>
+      <br>
+    </form>
+
+    <input id="boton_validar" type="submit" class="boton_validar" value="Pagar">
+  </div>
+
+  <div class="verificacion" style="display: none;">
+
+    <img src="images/MAC.jpg" class="imagen_final">
+
+    <p id="letrero_aprobacion"></p>
+
+    <div id="imagen_aprobado" style="display: none;">
+      <img src="images/aprobado.jpg" class="imagen_aprobacion">
+      <p class="tu_transaccion">__________Tu transaccion ha sido aprobada</p>
+    </div>
+
+    <div id="imagen_denegado" style="display: none;">
+      <img src="images/denegado.jpeg" class="imagen_aprobacion">
+      <p class="tu_transaccion">__________Tu transaccion ha sido denegada</p>
+      <div id="comunicarse_entidad"><br>
+        <br>
+        <h2>Por favor comunicate con </h2><br>
+        <h2>tu entidad financiera</h2><br>
+        <br>
+      </div>
+    </div>
+
+    <div class="informacion_confirmacion" id="informacion_confirmacion">
+      <br>
+      <p class="nombre" id="confirmacion_nombre"></p>
+      <br>
+      <p id="confirmacion_tipo_documento"></p>
+      <br>
+      <p id="confirmacion_numero_documento"></p>
+      <br>
+      <p id="confirmacion_numero_tarjeta"></p>
+      <br>
+      <p id="confirmacion_fecha_expiracion"></p>
+      <br>
+      <p id="confirmacion_valor_producto"></p>
+      <br>
+    </div>
+
+    <button id="boton_regreso" class="boton_regreso">Regresar</button>
+
+  </div>
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
+<footer style="display: block;">
+
+  <main>
+    <br>
+    <br>
+    <br>
+    <h3> Nuestros productos son una forma de arte. . . </h3>
+
+    <img src="images/logo.jpeg" class="final_logo"><br>
+    <br>
+    <p> Encuentranos en :</p>
+    <br>
+    <img src="images/red.jpg" class="final_footer"><br>
+    <p> servicio@maccosmetics.com</p>
+
+  </main>
+
+</footer>
+
+</html>
