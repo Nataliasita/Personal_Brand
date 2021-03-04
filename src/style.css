@@ -46,26 +46,30 @@ body {
   font-size: 25px;
   padding: 1em 2em;
 }
-
 .imagen_seleccion {
-  width: 22%;
+  width: 19%;
   border-radius: 9em;
+  top:20%;
+  height: 30%;
+  margin-top: 45px;
   display: inline-block;
-  vertical-align: top;
-  margin-left: 113px;
-  margin-top: 15px;
+  margin-inline-start: 11.3%;
+  align-items: center;
+  writing-mode: horizontal;
 }
 
 .descripcion_compras {
   width: 22%;
   display: inline-block;
-  padding: 10px 20px;
-  margin-left: 113px;
+  padding: 1%;
+  margin-inline-start: 9%;
   margin-top: 10px;
   text-align: center;
-  background-color: rgba(253, 253, 253, 0.89);
+  background-color: rgba(226, 225, 225, 0.651);
+  color:rgb(100, 10, 81);
   font-size: 30px;
   border-style: inset;
+  border-color: rgb(231, 149, 213);
 }
 
 .boton_intro {
@@ -135,18 +139,20 @@ body {
   margin: auto auto auto 380px;
   font-size: 30px;
   text-align: center;
+  color:rgb(100, 10, 81);
 }
 .resena{
   position: absolute;
   display: inline-block;
   top: 77%;
-  width: 550px;
-  text-align: center;
+  width: 480px;
+  text-align: justify;
   margin-left: 100px;
   font-style: italic;
-  font-family: fantasy;
-  color: black;
-  font-size: 15.5px;
+  font-family:serif;
+  font-weight: 700;
+  color:rgb(100, 10, 81);
+  font-size: 17px;
 }
 .pago_seguro {
   position: absolute;
@@ -351,9 +357,9 @@ footer {
   column-count: 3;
   background-color: rgb(233, 102, 200);
   color: white;
-  font-family: fantasy;
+  font-family: serif;
   font-size: 16x;
-  height: 19%;
+  height: 18%;
   align-items: center;
   text-align: center;
   font-style: italic;
