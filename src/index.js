@@ -19,6 +19,8 @@ function cambio_paginas() {
     document.getElementById("detalle_valor").textContent = "$350.000";
     document.getElementById("image1").style.display = "block";
     document.getElementById("resena1").style.display = "block";
+    document.getElementById("resena2").style.display = "none";
+    document.getElementById("resena3").style.display = "none";
     document.getElementById("precio_final").textContent = "$350.000";
     valor_pagar = "$350.000";
   }
@@ -30,7 +32,9 @@ function cambio_paginas() {
     document.getElementById("detalle_compra").textContent = "Set Brochas";
     document.getElementById("detalle_valor").textContent = "$200.000";
     document.getElementById("image2").style.display = "block";
+    document.getElementById("resena1").style.display = "none";
     document.getElementById("resena2").style.display = "block";
+    document.getElementById("resena3").style.display = "none";
     document.getElementById("precio_final").textContent = "$200.000";
     valor_pagar = "$200.000";
   }
@@ -42,6 +46,8 @@ function cambio_paginas() {
     document.getElementById("detalle_compra").textContent = "Set Labiales";
     document.getElementById("detalle_valor").textContent = "$125.000";
     document.getElementById("image3").style.display = "block";
+    document.getElementById("resena1").style.display = "none";
+    document.getElementById("resena2").style.display = "none";
     document.getElementById("resena3").style.display = "block";
     document.getElementById("precio_final").textContent = "$125.000";
     valor_pagar = "$125.000";
@@ -60,6 +66,7 @@ function cambio_paginas() {
     if (document.getElementById("numero_tarjeta").value.length > 10) {
       //console.log("entro variable intento")
       let numerosIsValid = document.getElementById("numero_tarjeta").value;
+      document.getElementById("confirmacion_tarjeta").style.display = "block";
       //console.log (numerosIsValid);
       //console.log(validator.isValid("4083952015263"))
       if (validator.isValid(numerosIsValid)) {
@@ -71,6 +78,40 @@ function cambio_paginas() {
       }
     }
   }
+
+  document.getElementById("titular").addEventListener('keyup', validacion_nametitular, false);
+
+  function validacion_nametitular(){
+    document.getElementById("confirmacion_caracteres_nombre").style.display = "block";
+    if(document.getElementById("titular").value.length > 0){
+        if(document.getElementById("titular").value.length> 6 && 
+        document.getElementById("titular").value.length <25){
+          document.getElementById("confirmacion_caracteres_nombre").textContent = "Cantidad Caracteres Valida";
+          document.getElementById("confirmacion_caracteres_nombre").style.color = "green";
+        }
+        else{
+          document.getElementById("confirmacion_caracteres_nombre").textContent = "Cantidad Caracteres Invalida";
+          document.getElementById("confirmacion_caracteres_nombre").style.color = "red";
+        }
+    }       
+  }
+
+  document.getElementById("numero_identificacion").addEventListener('keyup',validacion_numidentificacion,false);
+
+  function validacion_numidentificacion(){
+    document.getElementById("confirmacion_caracteresid").style.display = "block";
+    if(document.getElementById("numero_identificacion").value.length > 0){
+      if(document.getElementById("numero_identificacion").value.length > 6 && document.getElementById("numero_identificacion").value.length <11){
+        document.getElementById("confirmacion_caracteresid").textContent = "Cantidad Caracteres Valida";
+        document.getElementById("confirmacion_caracteresid").style.color = "green";
+      }
+      else{
+        document.getElementById("confirmacion_caracteresid").textContent = "Cantidad Caracteres Invalida";
+        document.getElementById("confirmacion_caracteresid").style.color = "red";
+      }
+    }
+  }
+
   let boton_validar = document.getElementById("boton_validar");
   boton_validar.onclick = function () {
     document.querySelector(".ingresar_informacion").style.display = "none";
@@ -90,7 +131,7 @@ function cambio_paginas() {
     //console.log("PRUEBA!!!!!!!",fecha_expiracion);
     // 
     if (validator.isValid(numerosIsValid) === true && nombre_usuario.length > 0 &&
-      numero_identificacion.length > 6 && numero_identificacion.length < 11) {
+      numero_identificacion.length > 6 && numero_identificacion.length < 25) {
       //console.log("valido");
       document.getElementById("letrero_aprobacion").textContent = "TRANSACCION APROBADA";
       document.getElementById("imagen_denegado").style.display = "none";
@@ -115,5 +156,9 @@ function cambio_paginas() {
   boton_regreso.onclick = function () {
     document.querySelector(".verificacion").style.display = "none";
     document.querySelector(".header").style.display = "block";
+    document.getElementById("form").reset();
+    document.getElementById("confirmacion_tarjeta").style.display = "none";
+    document.getElementById("confirmacion_caracteres_nombre").style.display = "none";
+    document.getElementById("confirmacion_caracteresid").style.display = "none";
   }
 }

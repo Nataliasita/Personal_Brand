@@ -7,9 +7,10 @@
 ## <span style="color: rgb(180, 21, 161);">  ***¿Cómo funciona nuestra página web?*** </span> 
  
   En la siguiente imagen podras ver un paso a paso de su funcionamiento:
- 
-  ![ Imagen producto terminado](https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/terminado.jpg?raw=true)
+  ##
+  <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/terminado.jpg?raw=true" width="500">
 
+##
 ## <span style="color: rgb(180, 21, 161);">  ***Investigacion UX:*** </span> 
 
 ### <span style="color: rgb(300, 21, 161);">  ***1. Usuarios y objetivos en relacion al producto*** </span> 
@@ -23,28 +24,53 @@
 ### <span style="color: rgb(300, 21, 161);">  ***3. Prototipos iniciales de nuestras diseñadoras*** </span> 
 
   Cada una de nuestras diseñadoras penso en este prototipo realizo a lapiz y papel:
-
+  ##
+  Prototipo lapiz y papel de Natalia Gonzalez
+  ##
   ![ Imagen prototipo lapiz y papel Natalia Gonzalez](images/terminado.jpg) 
 
-  ![ Imagen prototipo lapiz y papel Natalia Garavito](https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Maquetacion%20papel.jpeg?raw=true)
+  ##
+  Prototipo lapiz y papel de Natalia Garavito
+  ##
+  <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Maquetacion%20papel.jpeg?raw=true" width="300">
+
+  ##
 
 ### <span style="color: rgb(300, 21, 161);">  ***4. Feedback recibido*** </span> 
 
   En el Feedback se determinaron las siguientes pautas:
 
-  #### <span style="color: rgb(300, 21, 161);"> ۞  </span> <span style="color: black;"> El producto general que se queria vender (maquillaje).  </span> 
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los productos especificos a vender (sobras, brochas y labiales).
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los precios de los productos.
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los datos que se solicitarian al usuario para el pago seguro de tarjeta de credito.
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  El orden de las interfaces para mostrar el producto, pago seguro y verificacion de datos.
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  La funcionalidad de cada interfaz y comandos.
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  El orden de presentacion de las interfaces.
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  La colorimetria de la pagina web e imaganes relacionadas.
-  #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  El logo principal e informacion de contacto.
+  <span style="color: rgb(300, 21, 161);"> ۞  </span> El producto general que se queria vender. 
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los productos especificos a vender (sobras, brochas y labiales).
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los precios de los productos.
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los datos que se solicitarian al usuario para el pago seguro de tarjeta de credito.
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  El orden de las interfaces para mostrar el producto, pago seguro y verificacion de datos.
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  La funcionalidad de cada interfaz y comandos.
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  El orden de presentacion de las interfaces.
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  La colorimetria de la pagina web e imaganes relacionadas.
+
+  ###
+  <span style="color: rgb(300, 21, 161);"> ۞ </span>  El logo principal e informacion de contacto.
+
+  ### 
 
 ### <span style="color: rgb(300, 21, 161);">  ***5. Prototipo final*** </span> 
  
 
   Una vez que nuestras diseñadoras recibieron Feedback, se determino este prototipo final: 
 
-  ![ Imagen prototipo final](https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Prototipo.jpg?raw=true) 
+  <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Prototipo.jpg?raw=true" width="500">

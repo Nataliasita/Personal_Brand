@@ -69,7 +69,7 @@
       <br>
       <label>Nombre del titular <br>
         <input type="text" class="nombre" id="titular" placeholder="Ej: Maria Gomez" pattern="[a-z]{7,15}" required>
-        <br>
+        <p class="validadores" id="confirmacion_caracteres_nombre"></p>
       </label><br>
       <label>Tipo de documento <br>
         <select id="tipo_identificacion">
@@ -78,18 +78,19 @@
         </select></label><br>
       <br>
       <label>N° de identificacion<br>
-        <input type="number" id="numero_identificacion" placeholder="Ej: 11111111" pattern="[a-z]{2}" required><br>
+        <input type="number" id="numero_identificacion" placeholder="Ej: 123456" required><br>
+        <p class="validadores" id="confirmacion_caracteresid"></p>
       </label><br>
       <label>Numero de la tarjeta<br>
-        <input type="text" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
-        <p id="confirmacion_tarjeta"></p>
+        <input type="number" id="numero_tarjeta" placeholder="0000 0000 0000 0000" required> <br>
+        <p class="validadores" id="confirmacion_tarjeta"></p>
       </label><br>
       <label>Fecha de expiracion MM/AA<br>
         <input type="month" id="fecha_expiracion" min="2021-06" max="2025-12" required><br>
       </label><br>
       <h3>Total a pagar</h3>
       <p id="precio_final"></p>
-      <br>
+    
     </form>
 
     <input id="boton_validar" type="submit" class="boton_validar" value="Pagar">
