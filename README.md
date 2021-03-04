@@ -8,7 +8,7 @@
  
   En la siguiente imagen podras ver un paso a paso de su funcionamiento:
  
-  ![ Imagen producto terminado] images/terminado.jpg
+  ![ Imagen producto terminado](https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/terminado.jpg?raw=true)
 
 ## <span style="color: rgb(180, 21, 161);">  ***Investigacion UX:*** </span> 
 
@@ -26,13 +26,13 @@
 
   ![ Imagen prototipo lapiz y papel Natalia Gonzalez](images/terminado.jpg) 
 
-  ![ Imagen prototipo lapiz y papel Natalia Garavito](images/terminado.jpg)
+  ![ Imagen prototipo lapiz y papel Natalia Garavito](https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Maquetacion%20papel.jpeg?raw=true)
 
 ### <span style="color: rgb(300, 21, 161);">  ***4. Feedback recibido*** </span> 
 
   En el Feedback se determinaron las siguientes pautas:
 
-  #### <span style="color: rgb(300, 21, 161);"> ۞  </span>  El producto general que se queria vender (maquillaje).
+  #### <span style="color: rgb(300, 21, 161);"> ۞  </span> <span style="color: black;"> El producto general que se queria vender (maquillaje).  </span> 
   #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los productos especificos a vender (sobras, brochas y labiales).
   #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los precios de los productos.
   #### <span style="color: rgb(300, 21, 161);"> ۞ </span>  Los datos que se solicitarian al usuario para el pago seguro de tarjeta de credito.
@@ -47,4 +47,4 @@
 
   Una vez que nuestras diseñadoras recibieron Feedback, se determino este prototipo final: 
 
-  ![ Imagen prototipo final](images/Prototipo.jpg) 
+  ![ Imagen prototipo final](https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Prototipo.jpg?raw=true) 
