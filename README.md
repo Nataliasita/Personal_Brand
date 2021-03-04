@@ -25,12 +25,12 @@
 
   Cada una de nuestras diseñadoras penso en este prototipo realizo a lapiz y papel:
   ##
-  Prototipo lapiz y papel de Natalia Gonzalez
+  Prototipo lapiz y papel de Natalia Gonzalez:
   ##
   <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/papelnat.jpg?raw=true" width="300">
-  
+
   ##
-  Prototipo lapiz y papel de Natalia Garavito
+  Prototipo lapiz y papel de Natalia Garavito:
   ##
   <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/Maquetacion%20papel.jpeg?raw=true" width="300">
 
