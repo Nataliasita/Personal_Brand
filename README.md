@@ -8,7 +8,7 @@
  
   En la siguiente imagen podras ver un paso a paso de su funcionamiento:
   ##
-  <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/terminado.jpg?raw=true" width="500">
+  <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/final.jpg?raw=true" width="500">
 
 ##
 ## <span style="color: rgb(180, 21, 161);">  ***Investigacion UX:*** </span> 
@@ -27,8 +27,8 @@
   ##
   Prototipo lapiz y papel de Natalia Gonzalez
   ##
-  ![ Imagen prototipo lapiz y papel Natalia Gonzalez](images/terminado.jpg) 
-
+  <img src="https://github.com/NataliaG9806/BOG002-card-validation/blob/main/src/images/papelnat.jpg?raw=true" width="300">
+  
   ##
   Prototipo lapiz y papel de Natalia Garavito
   ##
