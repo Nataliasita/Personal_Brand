@@ -9,7 +9,7 @@ import { work } from '../components/work_section.js';
 
 
 export function renderHome($containerGeneral){
-  Menu($containerGeneral);
+   Menu($containerGeneral);
   home1($containerGeneral);
   home2($containerGeneral);
 }

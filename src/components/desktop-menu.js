@@ -73,13 +73,13 @@ class DesktopMenu extends HTMLElement {
 
     switch (this.hash) {
       case 'work':
-        tobeWork.setAttributeNode("style","border-bottom: 3px solid #005D87;");
+        tobeWork.setAttribute("style","border-bottom: 3px solid #005D87;");
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
           break;
       case 'contact':
-        tobeContact.setAttributeNodeNS("style","border-bottom: 3px solid #005D87;");
+        tobeContact.setAttribute("style","border-bottom: 3px solid #005D87;");
         break;
       default:
         break;

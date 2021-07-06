@@ -8,7 +8,7 @@ export function work ($containerGeneral){
     content_all.appendChild(work_area);
     const fondo_header =document.createElement("div");
     fondo_header.className = "fn_header"
-    work_area.appendChild(fondo_header)
+    content_all.appendChild(fondo_header)
     const decoration = document.createElement("img");
     decoration.src='images/bt_home2.png';
     decoration.className ="bt_decoration";
@@ -80,4 +80,63 @@ export function work ($containerGeneral){
     const circle_work = document.createElement('div');
     circle_work.className= 'circle_work';
     content_all.appendChild(circle_work);
+    const group_proyect = document.createElement('div');
+    group_proyect.className ="group_pro";
+    content_all.appendChild(group_proyect);
+    const proyect1 = document.createElement('div');
+    proyect1.setAttribute("id", "proyect1");
+    group_proyect.appendChild(proyect1);
+    const img_proyect1 = document.createElement("div");
+    img_proyect1.setAttribute("id", "img_proyect1");
+    proyect1.appendChild(img_proyect1);
+    const title_1 = document.createElement("p");
+    title_1.setAttribute("id", "title_1");
+    title_1.textContent = "Data Lovers";
+    img_proyect1.appendChild(title_1);
+    const title_2 = document.createElement("p");
+    title_2.setAttribute("id", "title_2");
+    title_2.textContent ="Diseño y construccion Pagina web Base de datos juego Pokemon GO" 
+    img_proyect1.appendChild(title_2);
+    const proyect2 = document.createElement('div');
+    proyect2.setAttribute("id", "proyect2");
+    group_proyect.appendChild(proyect2);
+    const img_proyect2 = document.createElement("div");
+    img_proyect2.setAttribute("id", "img_proyect2");
+    proyect2.appendChild(img_proyect2);
+    const title_pr = document.createElement("p");
+    title_pr.setAttribute("id", "title_pr");
+    title_pr.textContent = "Social Network";
+    img_proyect2.appendChild(title_pr);
+    const title_pr2 = document.createElement("p");
+    title_pr2.setAttribute("id", "title_pr2");
+    title_pr2.textContent ="Diseño y construccion Pagina web Red Social para Viajeros" 
+    img_proyect2.appendChild(title_pr2);
+    const proyect3 = document.createElement('div');
+    proyect3.setAttribute("id", "proyect3");
+    group_proyect.appendChild(proyect3);
+    const img_proyect3 = document.createElement("div");
+    img_proyect3.setAttribute("id", "img_proyect3");
+    proyect3.appendChild(img_proyect3);
+    const title_pr3 = document.createElement("p");
+    title_pr3.setAttribute("id", "title_pr3");
+    title_pr3.textContent = "Card Validation";
+    img_proyect3.appendChild(title_pr3);
+    const title_pr31 = document.createElement("p");
+    title_pr31.setAttribute("id", "title_pr31");
+    title_pr31.textContent ="Diseño y construccion Pagina web Validacion Tarjeta de credito Tienda Cosmetica" 
+    img_proyect3.appendChild(title_pr31);
+    const proyect4 = document.createElement('div');
+    proyect4.setAttribute("id", "proyect4");
+    group_proyect.appendChild(proyect4);
+    const img_proyect4 = document.createElement("div");
+    img_proyect4.setAttribute("id", "img_proyect4");
+    proyect4.appendChild(img_proyect4);
+    const title_pr4 = document.createElement("p");
+    title_pr4.setAttribute("id", "title_pr4");
+    title_pr4.textContent = "Diseñamos Juntos";
+    img_proyect4.appendChild(title_pr4);
+    const title_pr41 = document.createElement("p");
+    title_pr41.setAttribute("id", "title_pr41");
+    title_pr41.textContent ="Diseños para una nueva carátula de smartwatches" 
+    img_proyect4.appendChild(title_pr41);
 }

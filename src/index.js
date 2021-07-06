@@ -19,7 +19,7 @@ const init = () => {
             router(hash, $containerGeneral);
           }
           else{
-            if((hash == '') || (hash == '')){
+            if((hash == '')){
               router(hash, $containerGeneral);
             }
             else{
