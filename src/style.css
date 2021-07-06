@@ -659,6 +659,7 @@ body {
   -webkit-transition:margin 0.2s;
   -moz-transition:margin 0.2s;
 }
+
 #proyect3:hover #title_pr31{
   margin-top: 20vh;
   -webkit-transition:margin 0.3s;
