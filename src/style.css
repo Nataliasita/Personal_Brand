@@ -523,6 +523,16 @@ body {
   margin-left: 5.8vw;
   width: 20vw;
 }
+#envio1{
+  background-image: url("images/ir.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 3vw;
+  position: absolute;
+  margin-left: 1.7vw;
+  margin-top: 10.5vh;
+}
 #proyect1:hover #img_proyect1{
   opacity: 1;
 }
@@ -571,6 +581,16 @@ body {
   margin-top: 40vh;
   margin-left: 5.8vw;
   width: 20vw;
+}
+#envio2{
+  background-image: url("images/ir.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 3vw;
+  position: absolute;
+  margin-left: 1.7vw;
+  margin-top: 10.5vh;
 }
 #proyect2:hover #img_proyect2{
   opacity: 1;
@@ -621,11 +641,21 @@ body {
   margin-left: 5.8vw;
   width: 19vw;
 }
+#envio3{
+  background-image: url("images/ir.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 3vw;
+  position: absolute;
+  margin-left: 1.7vw;
+  margin-top: 10.5vh;
+}
 #proyect3:hover #img_proyect3{
   opacity: 1;
 }
 #proyect3:hover #title_pr3{
-  margin-left: 7.5vw;
+  margin-left: 7.6vw;
   -webkit-transition:margin 0.2s;
   -moz-transition:margin 0.2s;
 }

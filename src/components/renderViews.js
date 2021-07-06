@@ -13,11 +13,22 @@ export function renderHome($containerGeneral){
   home1($containerGeneral);
   home2($containerGeneral);
 }
+export function renderContact($containerGeneral){
+  Menu($containerGeneral);
+  home1($containerGeneral);
+  home2($containerGeneral);
+  const wiew_contact =document.querySelector('home2')
+  wiew_contact.innerHTML+=home2();
+
+
+}
+
 
 export function renderWork($containerGeneral){
   Menu($containerGeneral);
   work($containerGeneral);
-  document.querySelector('work').addEventListener('onclick', work);
+  const wiew_work =document.querySelector('content_all')
+  wiew_work.innerHTML+=work();
 }
 
 export function Menu($containerGeneral) {

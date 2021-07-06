@@ -63,7 +63,6 @@ class DesktopMenu extends HTMLElement {
     this.hash = window.location.hash.substring(1);
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
-
   }
 
   changeHash() {
@@ -85,7 +84,6 @@ class DesktopMenu extends HTMLElement {
         break;
     } 
   }
-
     connectedCallback(){
         this.changeHash();
         this.shadowRoot.getElementById('homeH').addEventListener('click', () => {

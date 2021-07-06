@@ -1,4 +1,3 @@
-//import { pageError } from './components/home.js';
 import { router } from './controls/router.js';
 
 const init = () => {
@@ -6,8 +5,8 @@ const init = () => {
   $containerGeneral.classList.add('bigContainer');
   document.querySelector('.body').appendChild($containerGeneral);
   
-  function verificateUser(hash, door){
-        if (((hash == '') || (hash == ''))) {
+  function verificateUbicacation(hash, door){
+        if ((hash == '')) {
           location.hash = '#home';
           door=false;
           router(hash, $containerGeneral);
@@ -18,25 +17,21 @@ const init = () => {
             location.hash = '#home';
             router(hash, $containerGeneral);
           }
-          else{
-            if((hash == '')){
-              router(hash, $containerGeneral);
-            }
             else{
               location.hash = '#';
               router(hash, $containerGeneral);
-            }
+            } 
           }
-        }
       }
-      document.querySelector('.bigContainer').innerHTML = '';
+
+  document.querySelector('.bigContainer').innerHTML = '';
   let hash = window.location.hash.substring(1);
   let door = true;
-  verificateUser(hash, door);
+  verificateUbicacation(hash, door);
 
   window.addEventListener('hashchange', () => {
     hash = window.location.hash.substring(1);
-    verificateUser(hash, door);
+    verificateUbicacation(hash, door);
   });
 };
 

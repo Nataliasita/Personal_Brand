@@ -97,6 +97,10 @@ export function work ($containerGeneral){
     title_2.setAttribute("id", "title_2");
     title_2.textContent ="Diseño y construccion Pagina web Base de datos juego Pokemon GO" 
     img_proyect1.appendChild(title_2);
+    const envio1 = document.createElement("a");
+    envio1.setAttribute("id", "envio1");
+    envio1.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/")
+    img_proyect1.appendChild(envio1);
     const proyect2 = document.createElement('div');
     proyect2.setAttribute("id", "proyect2");
     group_proyect.appendChild(proyect2);
@@ -111,6 +115,10 @@ export function work ($containerGeneral){
     title_pr2.setAttribute("id", "title_pr2");
     title_pr2.textContent ="Diseño y construccion Pagina web Red Social para Viajeros" 
     img_proyect2.appendChild(title_pr2);
+    const envio2 = document.createElement("a");
+    envio2.setAttribute("id", "envio2");
+    envio2.setAttribute("href","https://nataliagaravito.github.io/BOG002-social-network/")
+    img_proyect2.appendChild(envio2);
     const proyect3 = document.createElement('div');
     proyect3.setAttribute("id", "proyect3");
     group_proyect.appendChild(proyect3);
@@ -125,6 +133,10 @@ export function work ($containerGeneral){
     title_pr31.setAttribute("id", "title_pr31");
     title_pr31.textContent ="Diseño y construccion Pagina web Validacion Tarjeta de credito Tienda Cosmetica" 
     img_proyect3.appendChild(title_pr31);
+    const envio3 = document.createElement("a");
+    envio3.setAttribute("id", "envio3");
+    envio3.setAttribute("href","https://nataliagaravito.github.io/BOG002-card-validation/")
+    img_proyect3.appendChild(envio3);
     const proyect4 = document.createElement('div');
     proyect4.setAttribute("id", "proyect4");
     group_proyect.appendChild(proyect4);
