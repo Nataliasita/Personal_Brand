@@ -3,7 +3,6 @@ export function home1($containerGeneral){
     home1.className ='home1';
     home1.setAttribute("id", "home");
     $containerGeneral.appendChild(home1);
-    home1.setAttribute("id", "home");
     const triangle = document.createElement('div');
     triangle.className='triangle_blue';
     home1.appendChild(triangle);

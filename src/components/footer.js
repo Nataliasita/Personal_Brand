@@ -41,7 +41,7 @@ template.innerHTML = `
 </style>
 <footer class="footer">
     <div class="log">
-    <a href=""><img class="logo_footer" src="images/instagram.png"></a>
+    <a href="https://www.instagram.com/nataliasita04/"><img class="logo_footer" src="images/instagram.png"></a>
     <a href="https://www.linkedin.com/in/natalia-gonzalez-lizarazo/"><img class="logo_footer" src="images/linkedin.png"></a>
     <article>
     </div>

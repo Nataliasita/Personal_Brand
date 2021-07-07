@@ -1,11 +1,11 @@
 export function work ($containerGeneral){
-    console.log($containerGeneral)
+//    console.log($containerGeneral)
     const content_all = document.createElement("section");
     content_all.className = ("content_all");
+    content_all.setAttribute("id", "work");
     $containerGeneral.appendChild(content_all);
     const work_area = document.createElement("div");
     work_area.className ='work_area';
-    work_area.setAttribute("id", "work");
     content_all.appendChild(work_area);
     const fondo_header =document.createElement("div");
     fondo_header.className = "fn_header"
@@ -81,6 +81,10 @@ export function work ($containerGeneral){
     const circle_work = document.createElement('div');
     circle_work.className= 'circle_work';
     content_all.appendChild(circle_work);
+    const bienvenida= document.createElement("p");
+    bienvenida.setAttribute("id", "bienvenida");
+    bienvenida.textContent="Contantemente sigo aprendiendo nuevas herramientas y enfoques para ser más cercana al usuario, buscando asi lograr una experiencia innovadora en el mundo de la trasformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes como JavaScript, Html y CSS. ¡Bienvenido!"
+    content_all.appendChild(bienvenida);
     const group_proyect = document.createElement('div');
     group_proyect.className ="group_pro";
     content_all.appendChild(group_proyect);

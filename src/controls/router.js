@@ -1,8 +1,8 @@
-import { renderContact, renderHome, renderWork} from '../components/renderViews.js';
+import {renderContact, renderHome, renderWork} from '../components/renderViews.js';
 
 
 export function router(hash, $containerGeneral) {
-  console.log(hash)
+//  console.log(hash)
   switch (hash) {
     case 'work':
       renderWork($containerGeneral);

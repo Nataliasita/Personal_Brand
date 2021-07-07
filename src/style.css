@@ -120,6 +120,20 @@ body {
   width: 3vw;
   margin: 92vh 0 0 48vw;
 }
+.down:hover{
+  z-index: 31;
+  background-image:url("images/bt-complete.png"),url("images/flecha_az.png");
+  background-repeat: no-repeat,no-repeat;
+  background-blend-mode: lighten;
+  background-position:center,center;
+  height: 14vh;
+  width: 9.5vw;
+  margin: 90vh 0 0 44.8vw;
+  background-size: 78% 80%, 20% 26%;
+  position: absolute;
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
 .home2{
   z-index: 13;
   height: 100vh;
@@ -473,10 +487,19 @@ body {
   background-size: 110% 100%;
   opacity: 0.95;
 }
+#bienvenida{
+  width: 65vw;
+  margin-top: 55vh;
+  position: absolute;
+  color:#faf5e4;
+  font-size: 1.25em;
+  margin-left: 16.5vw;
+  text-align: justify;
+}
 .group_pro{
   height: 100vh ;
   width: 70vw ;
-  margin-top: 60vh;
+  margin-top: 80vh;
   margin-left: 14vw;
   z-index: 33;
   position: absolute;

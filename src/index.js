@@ -15,13 +15,14 @@ const init = () => {
           router(hash, $containerGeneral);
             }
           }
-          
+
   document.querySelector('.bigContainer').innerHTML = '';
   let hash = window.location.hash.substring(1);
   let door = true;
   verificateUbication(hash);
 
   window.addEventListener('hashchange', () => {
+    document.querySelector('.bigContainer').innerHTML = '';
     hash = window.location.hash.substring(1);
     verificateUbication(hash, door);
   });
