@@ -11,7 +11,7 @@ template.innerHTML = `
     position: absolute;
   }
 .logo_footer{
-    height: 4.6vh;
+    height: 4.4vh;
     padding:0.5em;
 }
 .logo_footer:hover{
