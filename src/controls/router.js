@@ -2,7 +2,7 @@ import { renderContact, renderHome, renderWork} from '../components/renderViews.
 
 
 export function router(hash, $containerGeneral) {
-  
+  console.log(hash)
   switch (hash) {
     case 'work':
       renderWork($containerGeneral);

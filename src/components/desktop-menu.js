@@ -66,7 +66,7 @@ class DesktopMenu extends HTMLElement {
   }
 
   changeHash() {
-    const tobeWork = this.shadowRoot.getElementById('workh');
+    const tobeWork = this.shadowRoot.getElementById('workH');
     const tobeHome = this.shadowRoot.getElementById('homeH');
     const tobeContact = this.shadowRoot.getElementById('contactH');
 
@@ -85,21 +85,22 @@ class DesktopMenu extends HTMLElement {
     } 
   }
     connectedCallback(){
+      console.log("connectedCallback")
         this.changeHash();
-        this.shadowRoot.getElementById('homeH').addEventListener('click', () => {
-          this.shadowRoot.getElementById('workH').removeAttribute("href");
-          this.shadowRoot.getElementById('contactH').removeAttribute("href");
-        }, {once: true});
+//        this.shadowRoot.getElementById('homeH').addEventListener('click', () => {
+//          this.shadowRoot.getElementById('workH').removeAttribute("href");
+//          this.shadowRoot.getElementById('contactH').removeAttribute("href");
+//        })
 
-        this.shadowRoot.getElementById('workH').addEventListener('click', () => {
-            this.shadowRoot.getElementById('homeH').removeAttribute("href");
-            this.shadowRoot.getElementById('contactH').removeAttribute("href");
-          }, {once: true});
+//        this.shadowRoot.getElementById('workH').addEventListener('click', () => {
+//            this.shadowRoot.getElementById('homeH').removeAttribute("href");
+//            this.shadowRoot.getElementById('contactH').removeAttribute("href");
+//          })
 
-          this.shadowRoot.getElementById('contactH').addEventListener('click', () => {
-            this.shadowRoot.getElementById('homeH').removeAttribute("href");
-            this.shadowRoot.getElementById('workH').removeAttribute("href");
-          }, {once: true});
+//          this.shadowRoot.getElementById('contactH').addEventListener('click', () => {
+//            this.shadowRoot.getElementById('homeH').removeAttribute("href");
+//            this.shadowRoot.getElementById('workH').removeAttribute("href");
+//          } )
       }    
   }
 

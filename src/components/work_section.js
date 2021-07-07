@@ -1,4 +1,5 @@
 export function work ($containerGeneral){
+    console.log($containerGeneral)
     const content_all = document.createElement("section");
     content_all.className = ("content_all");
     $containerGeneral.appendChild(content_all);

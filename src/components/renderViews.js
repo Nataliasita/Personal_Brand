@@ -17,18 +17,18 @@ export function renderContact($containerGeneral){
   Menu($containerGeneral);
   home1($containerGeneral);
   home2($containerGeneral);
-  const wiew_contact =document.querySelector('home2')
-  wiew_contact.innerHTML+=home2();
-
+  
+//  const wiew_contact =document.querySelector('#contact')
+//  console.log(wiew_contact)
+//  wiew_contact.innerHTML+=home2();
 
 }
-
 
 export function renderWork($containerGeneral){
   Menu($containerGeneral);
   work($containerGeneral);
-  const wiew_work =document.querySelector('content_all')
-  wiew_work.innerHTML+=work();
+//  const wiew_work =document.querySelector('.content_all')
+//  wiew_work.innerHTML+=work();
 }
 
 export function Menu($containerGeneral) {
