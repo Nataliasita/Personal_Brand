@@ -83,7 +83,7 @@ export function work ($containerGeneral){
     content_all.appendChild(circle_work);
     const bienvenida= document.createElement("p");
     bienvenida.setAttribute("id", "bienvenida");
-    bienvenida.textContent="Contantemente sigo aprendiendo nuevas herramientas y enfoques para ser más cercana al usuario, buscando asi lograr una experiencia innovadora en el mundo de la trasformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes como JavaScript, Html y CSS. ¡Bienvenido!"
+    bienvenida.textContent="Constantemente sigo aprendiendo nuevas herramientas y enfoques para ser más cercana al usuario, buscando asi lograr una experiencia innovadora en el mundo de la trasformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes como JavaScript, Html y CSS. ¡Bienvenido!"
     content_all.appendChild(bienvenida);
     const group_proyect = document.createElement('div');
     group_proyect.className ="group_pro";
