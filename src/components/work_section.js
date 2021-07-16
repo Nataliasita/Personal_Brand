@@ -81,9 +81,13 @@ export function work ($containerGeneral){
     const circle_work = document.createElement('div');
     circle_work.className= 'circle_work';
     content_all.appendChild(circle_work);
+    const title_work= document.createElement("p");
+    title_work.textContent ="Welcome|Bienvenue|歡迎|ようこそ dear visitor"
+    title_work.setAttribute("id", "title_work")
+    content_all.appendChild(title_work);
     const bienvenida= document.createElement("p");
     bienvenida.setAttribute("id", "bienvenida");
-    bienvenida.textContent="Constantemente sigo aprendiendo nuevas herramientas y enfoques para ser más cercana al usuario, buscando asi lograr una experiencia innovadora en el mundo de la trasformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes como JavaScript, Html y CSS. ¡Bienvenido!"
+    bienvenida.textContent="Quiero contarte que constantemente sigo aprendiendo nuevas herramientas y enfoques para ser más cercana a los usuarios, buscando ofrecerles una experiencia accesible e innovadora dentro del mundo de la trasformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes como JavaScript, Html y CSS."
     content_all.appendChild(bienvenida);
     const group_proyect = document.createElement('div');
     group_proyect.className ="group_pro";
@@ -156,4 +160,22 @@ export function work ($containerGeneral){
     title_pr41.setAttribute("id", "title_pr41");
     title_pr41.textContent ="Diseños para una nueva carátula de smartwatches" 
     img_proyect4.appendChild(title_pr41);
+    const proyect5 = document.createElement('div');
+    proyect5.setAttribute("id", "proyect5");
+    group_proyect.appendChild(proyect5);
+    const img_proyect5 = document.createElement("div");
+    img_proyect5.setAttribute("id", "img_proyect5");
+    proyect5.appendChild(img_proyect5);
+    const title_pr5 = document.createElement("p");
+    title_pr5.setAttribute("id", "title_pr5");
+    title_pr5.textContent = "Case Study Slide Deck";
+    img_proyect5.appendChild(title_pr5);
+    const title_pr51 = document.createElement("p");
+    title_pr51.setAttribute("id", "title_pr51");
+    title_pr51.textContent =" Google UX Design - Certificate Love & Flowers App Design" 
+    img_proyect5.appendChild(title_pr51);
+    const envio5 = document.createElement("a");
+    envio5.setAttribute("id", "envio5");
+    envio5.setAttribute("href",'../components/cv/Case study slide deck [Love&Flowers].pdf');
+    img_proyect5.appendChild(envio5);
 }

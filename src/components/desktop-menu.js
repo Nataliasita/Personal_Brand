@@ -46,6 +46,43 @@ template.innerHTML = `
 #contactH:hover{
   border-bottom: 3px solid #005D87;
 }
+.footer{
+  width: 100vw;
+  z-index: 16;
+  height: 12vh;
+  background:#005D87; 
+  display: flex;
+  bottom:0;
+  position:absolute;
+}
+.logo_footer{
+  height: 4.4vh;
+  padding:0.5em;
+}
+.logo_footer:hover{
+  background: #00405ed7;
+  border-radius:10px;
+  padding:0.5em;
+}
+.log{
+  display: flex;
+  width: 10vw;
+  position: absolute;
+  top: 2.8vh;
+  right: 20vw;
+  justify-content:space-between;
+}
+#derechos{
+  margin: 5.7vh 0 0 4vw;
+  height:2.3vh;
+}
+#name{
+  margin: 5vh 0 0 1.3vw;
+  font-family: 'Pattaya', sans-serif;
+  color: white;
+  font-size:1.1em;
+}
+
 }
 </style>
 <header class="header">
@@ -55,6 +92,17 @@ template.innerHTML = `
 <li><a id="contactH" href="#contact">Contacto</a></li>
 </ul>
 </header>
+
+<footer class="footer"  id="foo_work">
+    <div class="log">
+    <a href="https://www.instagram.com/nataliasita04/"><img class="logo_footer" src="images/instagram.png"></a>
+    <a href="https://www.linkedin.com/in/natalia-gonzalez-lizarazo/"><img class="logo_footer" src="images/linkedin.png"></a>
+    <article>
+    </div>
+    <img id="derechos" src="images/derechos-de-autor.png"><p id="name">Natalia Gonzalez 2021 |</p>
+
+</article>
+</footer>
 `;
 
 class DesktopMenu extends HTMLElement {
@@ -69,10 +117,12 @@ class DesktopMenu extends HTMLElement {
     const tobeWork = this.shadowRoot.getElementById('workH');
     const tobeHome = this.shadowRoot.getElementById('homeH');
     const tobeContact = this.shadowRoot.getElementById('contactH');
+    const foot_work = this.shadowRoot.getElementById('foo_work');
 
     switch (this.hash) {
       case 'work':
         tobeWork.setAttribute("style","border-bottom: 3px solid #005D87;");
+        foot_work.setAttribute("style","top:230vh;");
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
@@ -92,7 +142,7 @@ class DesktopMenu extends HTMLElement {
 //          this.shadowRoot.getElementById('contactH').removeAttribute("href");
 //        })
 
-//        this.shadowRoot.getElementById('workH').addEventListener('click', () => {
+//        this.shadowRoot.getElementById('workH').avhddEventListener('cvhlick', () => {
 //            this.shadowRoot.getElementById('homeH').removeAttribute("href");
 //            this.shadowRoot.getElementById('contactH').removeAttribute("href");
 //          })
