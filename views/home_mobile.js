@@ -1,8 +1,7 @@
 export function home_mobile() {
     const container = `
-    <section class="body_container">
-    
-    </section>
+    <desktop-menu>
+    </desktop-menu>
         `;
     return container;
 }

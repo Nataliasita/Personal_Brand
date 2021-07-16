@@ -1,4 +1,4 @@
-const template = document.createElement('template');
+/*const template = document.createElement('template');
 template.innerHTML = `
 <style>
 .footer{
@@ -7,8 +7,8 @@ template.innerHTML = `
     height: 12vh;
     background:#005D87; 
     display: flex;
-    top:188vh;
-    position: absolute;
+    bottom:0;
+    position:absolute;
   }
 .logo_footer{
     height: 4.4vh;
@@ -39,7 +39,8 @@ template.innerHTML = `
 }
 
 </style>
-<footer class="footer">
+
+<footer class="footer"  >
     <div class="log">
     <a href="https://www.instagram.com/nataliasita04/"><img class="logo_footer" src="images/instagram.png"></a>
     <a href="https://www.linkedin.com/in/natalia-gonzalez-lizarazo/"><img class="logo_footer" src="images/linkedin.png"></a>
@@ -64,3 +65,4 @@ class footerPag extends HTMLElement {
 
 }
 window.customElements.define('footer-pag', footerPag);
+*/
