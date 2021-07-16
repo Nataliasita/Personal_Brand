@@ -358,8 +358,8 @@ body {
 #dec6{
   z-index: 30;
   height: 30vh;
-  margin-top: 75vh;
-  right: 23vw;
+  margin-top: 153vh;
+  right: 7vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -378,8 +378,8 @@ body {
 #dec8{
   z-index: 30;
   height: 15vh;
-  margin-top: 115vh;
-  right: 35vw;
+  margin-top: 125vh;
+  right: 47vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -387,8 +387,8 @@ body {
 #dec9{
   z-index: 30;
   height: 15vh;
-  margin-top: 155vh;
-  left: 35vw;
+  margin-top: 188vh;
+  left: 25vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -397,7 +397,7 @@ body {
 #dec10{
   z-index: 30;
   height: 25vh;
-  margin-top: 155vh;
+  margin-top: 170vh;
   right: 32vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -406,8 +406,8 @@ body {
 #dec11{
   z-index: 30;
   height: 25vh;
-  margin-top: 105vh;
-  left: 35vw;
+  margin-top: 135vh;
+  left: 11vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -417,7 +417,7 @@ body {
   z-index: 30;
   height: 18vh;
   margin-top: 95vh;
-  left: 15vw;
+  left: 5vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
