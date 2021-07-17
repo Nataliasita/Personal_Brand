@@ -15,7 +15,7 @@ template.innerHTML = `
     padding: 0;
     list-style:none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     font-family: 'Pattaya', sans-serif;
     color: #005D87;
   }
