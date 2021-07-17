@@ -896,7 +896,7 @@ body {
     position: absolute;
     margin-top: 55vh;
     margin-left: 7vw;
-    font-size: 0.95em;
+    font-size: 0.97em;
     text-align:justify;
     text-justify:inter-word;
   }
@@ -1021,7 +1021,7 @@ body {
   #title_work{
     width: 75vw;
     font-size: 1.6em;
-    margin-top: 43vh;
+    margin-top: 45vh;
     margin-left:12vw;
     text-align: center;
   }
@@ -1035,7 +1035,7 @@ body {
   .group_pro{
     height: 145vh ;
     width: 85vw ;
-    margin-top: 103vh;
+    margin-top: 102vh;
     margin-left:7.5vw;
     z-index: 33;
     position: absolute;
@@ -1087,7 +1087,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     height:15vh;
-    width: 20vw;
+    width: 21vw;
     position: absolute;
     margin-top: 6vh;
     margin-left: 2vw;
@@ -1107,7 +1107,7 @@ body {
   } 
   #touch{
     position: absolute;
-    height: 8vh;
+    height: 7vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 33;
@@ -1120,7 +1120,7 @@ body {
     background: #faf5e4;
     width: 85vw;
     height: 35vh;
-    margin: 39vh 0 0 0;
+    margin: 40vh 0 0 0;
     z-index: 40;
     border-radius: 30px;
     background-image: url("images/social_network.png");
@@ -1159,7 +1159,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     height:15vh;
-    width: 20vw;
+    width: 21vw;
     position: absolute;
     margin-top: 5vh;
     margin-left: 2vw;
@@ -1220,7 +1220,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     height:15vh;
-    width: 20vw;
+    width: 21vw;
     position: absolute;
     margin-top: 5vh;
     margin-left: 2vw;
@@ -1334,7 +1334,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     height:15vh;
-    width: 20vw;
+    width: 21vw;
     position: absolute;
     margin-top: 5vh;
     margin-left: 2vw;
