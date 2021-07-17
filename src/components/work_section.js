@@ -82,7 +82,7 @@ export function work ($containerGeneral){
     circle_work.className= 'circle_work';
     content_all.appendChild(circle_work);
     const title_work= document.createElement("p");
-    title_work.textContent ="Welcome|Bienvenue|歡迎|ようこそ dear visitor"
+    title_work.textContent ="Welcome|Bienvenue|歡迎|ようこそ  dear visitor"
     title_work.setAttribute("id", "title_work")
     content_all.appendChild(title_work);
     const bienvenida= document.createElement("p");
