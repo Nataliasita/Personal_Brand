@@ -837,7 +837,7 @@ body {
     margin-top: 32vh;
   }
   .btfly_fondo{
-    right: -1vw;
+    right: 0;
     width: 38vw;
     height:80vh ;
   }
@@ -874,12 +874,12 @@ body {
   }
   .bt_home_2{
     height: 45vh ;
-    margin-left:22vw;
+    margin-left:9vw;
     margin-top: 13vh;
   }
   .image_logN{
     height: 37vh;
-    margin-top:-5vh;
+    margin-top:-7vh;
     margin-left: -16vw;
   }
   .author_dos{
@@ -968,10 +968,10 @@ body {
     position: absolute;
   }
   .circle_work{
-    width: 18vw;
-    height: 10.5vh;
-    left: 2vw;
-    margin-top: 0.5vh;
+    width: 14.3vw;
+    height: 10vh;
+    left: 1.5vw;
+    margin-top: 1vh;
     background-image:url("images/logosfimg.png");
     background-repeat: no-repeat;
   }

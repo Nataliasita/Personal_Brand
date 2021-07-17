@@ -82,17 +82,6 @@ template.innerHTML = `
   font-size:1.1em;
 }
 
-@media (max-width:540px){
-.header li{
-  font-size:1.5em;
-}
-.list{
-  margin: 0;
-}
-#name{
-  font-size:1em;
-}
-}
 </style>
 <header class="header">
 <ul class="list">
