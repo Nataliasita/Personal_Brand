@@ -114,7 +114,7 @@ template.innerHTML = `
 </footer>
 `;
 
-class DesktopMenu extends HTMLElement {
+class MobileMenu extends HTMLElement {
   constructor() {
     super();
     this.hash = window.location.hash.substring(1);
@@ -131,7 +131,7 @@ class DesktopMenu extends HTMLElement {
     switch (this.hash) {
       case 'work':
         tobeWork.setAttribute("style","border-bottom: 3px solid #005D87;");
-        foot_work.setAttribute("style","top:230vh;");
+        foot_work.setAttribute("style","top:300vh;");
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
@@ -164,4 +164,4 @@ class DesktopMenu extends HTMLElement {
   }
 
 
-window.customElements.define('desktop-menu', DesktopMenu);
+window.customElements.define('mobile-menu', MobileMenu);
