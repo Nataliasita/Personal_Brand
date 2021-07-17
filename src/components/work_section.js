@@ -108,8 +108,12 @@ export function work ($containerGeneral){
     img_proyect1.appendChild(title_2);
     const envio1 = document.createElement("a");
     envio1.setAttribute("id", "envio1");
-    envio1.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/")
+    envio1.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/");
     img_proyect1.appendChild(envio1);
+    const touch = document.createElement("img");
+    touch.src='images/hand.png';
+    touch.setAttribute("id", "touch");
+    proyect1.appendChild(touch);
     const proyect2 = document.createElement('div');
     proyect2.setAttribute("id", "proyect2");
     group_proyect.appendChild(proyect2);

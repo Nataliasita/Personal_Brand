@@ -815,9 +815,12 @@ body {
   -webkit-transition:margin 0.3s;
   -moz-transition:margin 0.3s;
 }  
+#touch{
+  display: none;
+}
 @media (max-width:623px){
   .author{
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-top: 15vh;
   }
   .btfly_big{
@@ -881,22 +884,21 @@ body {
   }
   .author_dos{
     text-align:left;
-    right: 14vw;
-    margin-top:49vh;
+    right: 10vw;
+    margin-top:48vh;
     font-size: 1.4em;
     font-weight: 600;
   }
   .description{
     text-align:left;
-    width: 75vw;
+    width: 85vw;
     height: 20vh;
     position: absolute;
-    margin-top: 56vh;
-    margin-left: 11vw;
-    font-size: 0.83em;
+    margin-top: 55vh;
+    margin-left: 7vw;
+    font-size: 0.95em;
     text-align:justify;
     text-justify:inter-word;
-
   }
   .piece_two{
     z-index: 25;
@@ -940,14 +942,14 @@ body {
     background-image: url("images/flecha_bl_up.png");
     height: 8vh;
     width: 15vw;
-    margin: 80vh 0 0 40vw;
+    margin: 82vh 0 0 40vw;
   }
   .down_home2:hover{
     cursor: pointer;
     background-image:url("images/flecha_bl_up.png");
     height: 8vh;
     width: 15vw;
-    margin: 80vh 0 0 40vw;
+    margin: 82vh 0 0 40vw;
   }
   .content_all{
     height: 300vh;
@@ -987,25 +989,54 @@ body {
     margin-top: 15vh;
     margin-left: -20vw;
   }
+  .bt_decoration{
+    z-index: 30;
+    height: 20vh;
+    margin-top: 5vh;
+    right: 5vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  #dec15{
+    z-index: 35;
+    opacity: 0.85;
+    background-size: 100% 100%;
+    height: 20vh;
+    position: absolute;
+    margin-left: 29vw;
+    margin-top: 16.5vh;
+    transform: rotate(-9deg);
+  }
+  #dec3{
+    z-index: 30;
+    height: 10vh;
+    margin-top: 93vh;
+    left: 65vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.7;
+  }
   #title_work{
     width: 75vw;
-    font-size: 1.5em;
-    margin-top: 45vh;
+    font-size: 1.6em;
+    margin-top: 43vh;
     margin-left:12vw;
     text-align: center;
   }
   #bienvenida{
-    width: 80vw;
-    margin-top: 60vh;
+    width: 83vw;
+    margin-top: 58vh;
     color: #faf5e4;
-    font-size: 1em;
-    margin-left: 10vw;
+    font-size: 1.2em;
+    margin-left: 7.5vw;
   }
   .group_pro{
     height: 145vh ;
-    width: 80vw ;
-    margin-top: 97vh;
-    margin-left: 10vw;
+    width: 85vw ;
+    margin-top: 103vh;
+    margin-left:7.5vw;
     z-index: 33;
     position: absolute;
     display: flex;
@@ -1013,7 +1044,7 @@ body {
   }
   #proyect1{
     background: #faf5e4;
-    width: 80vw;
+    width: 85vw;
     height: 35vh;
     margin: 0 0 2.5vw  0;
     border-radius: 30px;
@@ -1026,7 +1057,7 @@ body {
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
   }
   #img_proyect1{
-    width:80vw;
+    width:85vw;
     height:35vh;
     overflow: hidden;
     position: absolute;
@@ -1046,26 +1077,26 @@ body {
     position: absolute;
     font-size: 1.2em;
     margin-top: 40vh;
-    margin-left: 10vw;
+    margin-left: 12vw;
     width: 60vw;
     text-align: center;
   }
   #envio1{
-    background-image: url("images/ir.png");
-    background-size: 10% 15%;
+    background-image: url("images/ir2.png");
+    background-size: 55% 45%;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-position-x: 5vw;
-    background-position-y: 7vh;
-    height:35vh;
-    width: 80vw;
+    background-position: top;
+    height:15vh;
+    width: 20vw;
     position: absolute;
+    margin-top: 6vh;
+    margin-left: 2vw;
   }
   #proyect1:hover #img_proyect1{
     opacity: 1;
   }
   #proyect1:hover #title_1{
-    margin-left: 22vw;
+    margin-left: 25vw;
     -webkit-transition:margin 0.2s;
     -moz-transition:margin 0.2s;
   }
@@ -1074,9 +1105,20 @@ body {
     -webkit-transition:margin 0.3s;
     -moz-transition:margin 0.3s;
   } 
+  #touch{
+    position: absolute;
+    height: 8vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 33;
+    display: block;
+    margin-top:12vh;
+    right: -4.5vw;
+    transform: rotate(-35deg);
+  }
   #proyect2{
     background: #faf5e4;
-    width: 80vw;
+    width: 85vw;
     height: 35vh;
     margin: 39vh 0 0 0;
     z-index: 40;
@@ -1087,7 +1129,7 @@ body {
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
   }
   #img_proyect2{
-    width:80vw;
+    width:85vw;
     height:35vh;
     overflow: hidden;
     position: absolute;
@@ -1107,26 +1149,26 @@ body {
     position: absolute;
     font-size: 1.2em;
     margin-top: 40vh;
-    margin-left:10vw;
+    margin-left:13vw;
     width: 60vw;
     text-align: center;
   }
   #envio2{
-    background-image: url("images/ir.png");
-    background-size: 10% 15%;
+    background-image: url("images/ir2.png");
+    background-size: 55% 45%;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-position-x: 5vw;
-    background-position-y: 7vh;
-    height:35vh;
-    width: 80vw;
+    background-position: top;
+    height:15vh;
+    width: 20vw;
     position: absolute;
+    margin-top: 5vh;
+    margin-left: 2vw;
   }
   #proyect2:hover #img_proyect2{
     opacity: 1;
   }
   #proyect2:hover #title_pr{
-    margin-left: 17vw;
+    margin-left: 20vw;
     -webkit-transition:margin 0.2s;
     -moz-transition:margin 0.2s;
   }
@@ -1137,7 +1179,7 @@ body {
   } 
   #proyect3{
     background: #faf5e4;
-    width: 80vw;
+    width: 85vw;
     height: 35vh;
     margin: 5vh 0 0 0;
     border-radius: 30px;
@@ -1148,7 +1190,7 @@ body {
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
   }
   #img_proyect3{
-    width:80vw;
+    width:85vw;
     height:35vh;
     overflow: hidden;
     position: absolute;
@@ -1162,44 +1204,44 @@ body {
     position: absolute;
     font-size: 1.7em;
     margin-left: -15vw;
-    margin-top: 12vh;
+    margin-top: 10vh;
   }
   #title_pr31{
     position: absolute;
     font-size: 1.2em;
-    margin-top: 40vh;
-    margin-left: 7vw;
+    margin-top: 30vh;
+    margin-left: 9vw;
     width: 65vw;
     text-align: center;
   }
   #envio3{
-    background-image: url("images/ir.png");
-    background-size: 10% 15%;
+    background-image: url("images/ir2.png");
+    background-size: 55% 45%;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-position-x: 5vw;
-    background-position-y: 7vh;
-    height:35vh;
-    width: 80vw;
+    background-position: top;
+    height:15vh;
+    width: 20vw;
     position: absolute;
+    margin-top: 5vh;
+    margin-left: 2vw;
   }
   #proyect3:hover #img_proyect3{
     opacity: 1;
   }
   #proyect3:hover #title_pr3{
-    margin-left: 15vw;
+    margin-left: 18vw;
     -webkit-transition:margin 0.2s;
     -moz-transition:margin 0.2s;
   }
   
   #proyect3:hover #title_pr31{
-    margin-top: 20vh;
+    margin-top: 17.5vh;
     -webkit-transition:margin 0.3s;
     -moz-transition:margin 0.3s;
   }  
   #proyect4{
     background: #faf5e4;
-    width: 80vw;
+    width: 85vw;
     height: 35vh;
     margin: 5vh 0 0 0;
     border-radius: 30px;
@@ -1210,7 +1252,7 @@ body {
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
   }
   #img_proyect4{
-    width:80vw;
+    width:85vw;
     height:35vh;
     overflow: hidden;
     position: absolute;
@@ -1231,7 +1273,7 @@ body {
     position: absolute;
     font-size: 1.2em;
     margin-top: 40vh;
-    margin-left: 10vw;
+    margin-left: 11vw;
     width: 60vw;
     text-align: center;
   }
@@ -1239,7 +1281,7 @@ body {
     opacity: 1;
   }
   #proyect4:hover #title_pr4{
-    margin-left:12vw;
+    margin-left:14vw;
     -webkit-transition:margin 0.2s;
     -moz-transition:margin 0.2s;
   }
@@ -1250,7 +1292,7 @@ body {
   } 
   #proyect5{
     background:#fffdf8ea;
-    width: 80vw;
+    width: 85vw;
     height: 35vh;
     margin: 5vh 0 0 0;
     border-radius: 30px;
@@ -1262,7 +1304,7 @@ body {
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
   }
   #img_proyect5{
-    width:80vw;
+    width:85vw;
     height:35vh;
     overflow: hidden;
     position: absolute;
@@ -1282,26 +1324,26 @@ body {
     position: absolute;
     font-size: 1.2em;
     margin-top: 40vh;
-    margin-left: 5vw;
+    margin-left: 6.5vw;
     width: 70vw;
     text-align: center;
   }
   #envio5{
-    background-image: url("images/ir.png");
-    background-size: 10% 15%;
+    background-image: url("images/ir2.png");
+    background-size: 55% 45%;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-position-x: 5vw;
-    background-position-y: 7vh;
-    height:35vh;
-    width: 80vw;
+    background-position: top;
+    height:15vh;
+    width: 20vw;
     position: absolute;
+    margin-top: 5vh;
+    margin-left: 2vw;
   }
   #proyect5:hover #img_proyect5{
     opacity: 1;
   }
   #proyect5:hover #title_pr5{
-    margin-left: 6.2vw;
+    margin-left: 8.5vw;
     -webkit-transition:margin 0.2s;
     -moz-transition:margin 0.2s;
   }
@@ -1310,4 +1352,5 @@ body {
     -webkit-transition:margin 0.3s;
     -moz-transition:margin 0.3s;
   }  
+
 }

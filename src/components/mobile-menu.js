@@ -48,7 +48,7 @@ template.innerHTML = `
 .footer{
   width: 100vw;
   z-index: 16;
-  height: 12vh;
+  height: 10vh;
   background:#005D87; 
   display: flex;
   bottom:0;
@@ -67,16 +67,16 @@ template.innerHTML = `
   display: flex;
   width: 10vw;
   position: absolute;
-  top: 2.8vh;
+  top: 1.8vh;
   right: 20vw;
   justify-content:space-between;
 }
 #derechos{
-  margin: 5.7vh 0 0 4vw;
-  height:2.3vh;
+  margin: 4.5vh 0 0 4vw;
+  height:2vh;
 }
 #name{
-  margin: 5vh 0 0 1.3vw;
+  margin: 3.8vh 0 0 1.3vw;
   font-family: 'Pattaya', sans-serif;
   color: white;
   font-size:1.1em;
