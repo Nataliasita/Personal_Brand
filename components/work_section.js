@@ -181,5 +181,6 @@ export function work ($containerGeneral){
     const envio5 = document.createElement("a");
     envio5.setAttribute("id", "envio5");
     envio5.setAttribute("href",'../components/cv/CaseStudy.pdf');
+    envio5.setAttribute("download","CaseStudy.pdf");
     img_proyect5.appendChild(envio5);
 }
