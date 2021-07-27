@@ -755,14 +755,14 @@ body {
   -moz-transition:margin 0.3s;
 }  
 #proyect5{
-  background:#faf5e4ef;
+  background:#faf5e4ec;
   width: 30vw;
   height: 40vh;
   margin: 0 2.5vw 0 20vw;
   border-radius: 30px;
   z-index: 40;
-  background-image: url("images/case.png");
-  background-size: 90% 85%;
+  background-image: url("images/s6.png");
+  background-size: 80% 85%;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
