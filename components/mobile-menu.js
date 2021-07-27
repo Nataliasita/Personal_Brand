@@ -58,11 +58,6 @@ template.innerHTML = `
   height: 4.4vh;
   padding:0.5em;
 }
-.logo_footer:hover{
-  background: #00405ed7;
-  border-radius:10px;
-  padding:0.5em;
-}
 .log{
   display: flex;
   width: 10vw;
@@ -76,10 +71,10 @@ template.innerHTML = `
   height:2vh;
 }
 #name{
-  margin: 3.8vh 0 0 1.3vw;
+  margin: 4.2vh 0 0 1.3vw;
   font-family: 'Pattaya', sans-serif;
   color: white;
-  font-size:1.1em;
+  font-size:1.0em;
 }
 
 @media (max-width:540px){

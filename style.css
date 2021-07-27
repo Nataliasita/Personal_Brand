@@ -755,7 +755,7 @@ body {
   -moz-transition:margin 0.3s;
 }  
 #proyect5{
-  background:#ea526ecc;
+  background:#faf5e4ef;
   width: 30vw;
   height: 40vh;
   margin: 0 2.5vw 0 20vw;
@@ -1035,7 +1035,7 @@ body {
   .group_pro{
     height: 145vh ;
     width: 85vw ;
-    margin-top: 99vh;
+    margin-top:103vh;
     margin-left:7.5vw;
     z-index: 33;
     position: absolute;
