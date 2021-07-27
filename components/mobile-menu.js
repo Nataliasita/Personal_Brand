@@ -68,7 +68,7 @@ template.innerHTML = `
   width: 10vw;
   position: absolute;
   top: 1.8vh;
-  right: 20vw;
+  right: 33vw;
   justify-content:space-between;
 }
 #derechos{
@@ -106,6 +106,7 @@ template.innerHTML = `
     <div class="log">
     <a href="https://www.instagram.com/nataliasita04/"><img class="logo_footer" src="images/instagram.png"></a>
     <a href="https://www.linkedin.com/in/natalia-gonzalez-lizarazo/"><img class="logo_footer" src="images/linkedin.png"></a>
+    <a href="https://dribbble.com/Nataliasita04"><img class="logo_footer" src="images/dribble.png"></a>
     <article>
     </div>
     <img id="derechos" src="images/derechos-de-autor.png"><p id="name">Natalia Gonzalez 2021 |</p>

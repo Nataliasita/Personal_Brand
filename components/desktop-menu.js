@@ -56,7 +56,7 @@ template.innerHTML = `
 }
 .logo_footer{
   height: 4.4vh;
-  padding:0.5em;
+  padding:0.5em 1em;
 }
 .logo_footer:hover{
   background: #00405ed7;
@@ -95,6 +95,7 @@ template.innerHTML = `
     <div class="log">
     <a href="https://www.instagram.com/nataliasita04/"><img class="logo_footer" src="images/instagram.png"></a>
     <a href="https://www.linkedin.com/in/natalia-gonzalez-lizarazo/"><img class="logo_footer" src="images/linkedin.png"></a>
+    <a href="https://dribbble.com/Nataliasita04"><img class="logo_footer" src="images/dribble.png"></a>
     <article>
     </div>
     <img id="derechos" src="images/derechos-de-autor.png"><p id="name">Natalia Gonzalez 2021 |</p>
