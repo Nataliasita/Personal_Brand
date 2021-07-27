@@ -56,7 +56,8 @@ template.innerHTML = `
 }
 .logo_footer{
   height: 4.4vh;
-  padding:0.5em 1em;
+  margin-right:1.8vw;
+  padding:0.5em;
 }
 .logo_footer:hover{
   background: #00405ed7;
