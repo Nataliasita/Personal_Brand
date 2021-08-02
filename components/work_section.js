@@ -176,11 +176,49 @@ export function work ($containerGeneral){
     img_proyect5.appendChild(title_pr5);
     const title_pr51 = document.createElement("p");
     title_pr51.setAttribute("id", "title_pr51");
-    title_pr51.textContent =" Google UX Design - Certificate Love & Flowers App Design" 
+    title_pr51.textContent =" Google UX Design - Design a flower catalog application mobile for a florist in Buenos Aires" 
     img_proyect5.appendChild(title_pr51);
     const envio5 = document.createElement("a");
     envio5.setAttribute("id", "envio5");
-    envio5.setAttribute("href",'../components/cv/CaseStudy.pdf');
+    envio5.setAttribute("href",'../components/CaseStudy.pdf');
     envio5.setAttribute("download","CaseStudy.pdf");
     img_proyect5.appendChild(envio5);
+    const proyect6 = document.createElement('div');
+    proyect6.setAttribute("id", "proyect6");
+    group_proyect.appendChild(proyect6);
+    const img_proyect6 = document.createElement("div");
+    img_proyect6.setAttribute("id", "img_proyect6");
+    proyect6.appendChild(img_proyect6);
+    const title_pr6 = document.createElement("p");
+    title_pr6.setAttribute("id", "title_pr6");
+    title_pr6.textContent = "Case Study Slide Deck";
+    img_proyect6.appendChild(title_pr6);
+    const title_pr61 = document.createElement("p");
+    title_pr61.setAttribute("id", "title_pr61");
+    title_pr61.textContent =" Google UX Design - Desing a website responsive shopping experience for a french patisserie"
+    img_proyect6.appendChild(title_pr61);
+    const envio6 = document.createElement("a");
+    envio6.setAttribute("id", "envio6");
+    envio6.setAttribute("href",'../components/CaseStudy.pdf');
+    envio6.setAttribute("download","CaseStudy.pdf");
+    img_proyect6.appendChild(envio6);
+    const proyect7 = document.createElement('div');
+    proyect7.setAttribute("id", "proyect7");
+    group_proyect.appendChild(proyect7);
+    const img_proyect7 = document.createElement("div");
+    img_proyect7.setAttribute("id", "img_proyect7");
+    proyect7.appendChild(img_proyect7);
+    const title_pr7 = document.createElement("p");
+    title_pr7.setAttribute("id", "title_pr7");
+    title_pr7.textContent = "Case Study Slide Deck";
+    img_proyect7.appendChild(title_pr7);
+    const title_pr71 = document.createElement("p");
+    title_pr71.setAttribute("id", "title_pr71");
+    title_pr71.textContent =" Google UX Design - Design a cross-platform tool to help conserve an endangered species of panda" 
+    img_proyect7.appendChild(title_pr71);
+    const envio7 = document.createElement("a");
+    envio7.setAttribute("id", "envio6");
+    envio7.setAttribute("href",'../components/csworldPanda.pdf');
+    envio7.setAttribute("download","CaseStudy.pdf");
+    img_proyect7.appendChild(envio7);
 }
