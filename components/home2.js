@@ -34,9 +34,9 @@ export function home2($containerGeneral){
     home2.appendChild(list_home2);
     const curriculum = document.createElement("a");
     curriculum.textContent="Descargar Curriculum"
-    curriculum.setAttribute ('href','./CVNATALIAGONZALEZ.pdf');
+    curriculum.setAttribute ('href','./components/CVNATALIAGONZALEZ.pdf');
     curriculum.setAttribute("id", "curriculum")
-    curriculum.setAttribute("download","CVNATALIAGONZALEZ.pdf");
+    curriculum.setAttribute("download",'./components/CVNATALIAGONZALEZ.pdf');
     list_home2.appendChild(curriculum);
     const list_proyect = document.createElement("li");
     list_proyect.className ="list_proyect"
