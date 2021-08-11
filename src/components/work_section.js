@@ -87,7 +87,7 @@ export function work ($containerGeneral){
     content_all.appendChild(title_work);
     const bienvenida= document.createElement("p");
     bienvenida.setAttribute("id", "bienvenida");
-    bienvenida.textContent="Quiero contarte que constantemente sigo aprendiendo nuevas herramientas y enfoques para ser más cercana a los usuarios, buscando ofrecerles una experiencia accesible e innovadora dentro del mundo de la transformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes como JavaScript, Html y CSS."
+    bienvenida.textContent="Como apasionada por la tecnologia constantemente sigo aprendiendo nuevas herramientas y enfoques para ser cada vez más cercana al usuario, buscando ofrecerle una experiencia accesible e innovadora dentro del mundo de la transformación digital. A continuación, encontraras algunos de mis proyectos los cuales fueron construidos con lenguajes de programacion como JavaScript, Html y CSS."
     content_all.appendChild(bienvenida);
     const group_proyect = document.createElement('div');
     group_proyect.className ="group_pro";
@@ -162,7 +162,7 @@ export function work ($containerGeneral){
     img_proyect4.appendChild(title_pr4);
     const title_pr41 = document.createElement("p");
     title_pr41.setAttribute("id", "title_pr41");
-    title_pr41.textContent ="Diseños para una nueva carátula de smartwatches" 
+    title_pr41.textContent ="Diseños para nueva carátula de smartwatches" 
     img_proyect4.appendChild(title_pr41);
     const proyect5 = document.createElement('div');
     proyect5.setAttribute("id", "proyect5");
@@ -180,7 +180,7 @@ export function work ($containerGeneral){
     img_proyect5.appendChild(title_pr51);
     const envio5 = document.createElement("a");
     envio5.setAttribute("id", "envio5");
-    envio5.setAttribute("href",'../components/CaseStudy.pdf');
+    envio5.setAttribute("href",'./components/CaseStudy.pdf');
     envio5.setAttribute("download","CaseStudy.pdf");
     img_proyect5.appendChild(envio5);
     const proyect6 = document.createElement('div');
@@ -199,7 +199,7 @@ export function work ($containerGeneral){
     img_proyect6.appendChild(title_pr61);
     const envio6 = document.createElement("a");
     envio6.setAttribute("id", "envio6");
-    envio6.setAttribute("href",'../components/CaseStudy.pdf');
+    envio6.setAttribute("href",'./components/CaseStudy.pdf');
     envio6.setAttribute("download","CaseStudy.pdf");
     img_proyect6.appendChild(envio6);
     const proyect7 = document.createElement('div');
