@@ -127,7 +127,7 @@ class MobileMenu extends HTMLElement {
     switch (this.hash) {
       case 'work':
         tobeWork.setAttribute("style","border-bottom: 3px solid #005D87;");
-        foot_work.setAttribute("style","top:370vh;");
+        foot_work.setAttribute("style","top:380vh;");
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
