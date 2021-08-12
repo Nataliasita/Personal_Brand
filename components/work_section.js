@@ -199,8 +199,6 @@ export function work ($containerGeneral){
     img_proyect6.appendChild(title_pr61);
     const envio6 = document.createElement("a");
     envio6.setAttribute("id", "envio6");
-    envio6.setAttribute("href",'./components/CaseStudy.pdf');
-    envio6.setAttribute("download","CaseStudy.pdf");
     img_proyect6.appendChild(envio6);
     const proyect7 = document.createElement('div');
     proyect7.setAttribute("id", "proyect7");
@@ -219,6 +217,6 @@ export function work ($containerGeneral){
     const envio7 = document.createElement("a");
     envio7.setAttribute("id", "envio6");
     envio7.setAttribute("href",'../components/csworldPanda.pdf');
-    envio7.setAttribute("download","CaseStudy.pdf");
+    envio7.setAttribute("download",'../components/csworldPanda.pdf');
     img_proyect7.appendChild(envio7);
 }
