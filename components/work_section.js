@@ -216,7 +216,7 @@ export function work ($containerGeneral){
     img_proyect7.appendChild(title_pr71);
     const envio7 = document.createElement("a");
     envio7.setAttribute("id", "envio6");
-    envio7.setAttribute("href",'../components/csworldPanda.pdf');
-    envio7.setAttribute("download",'../components/csworldPanda.pdf');
+    envio7.setAttribute("href",'./components/csworldPanda.pdf');
+    envio7.setAttribute("download",'csworldPanda.pdf');
     img_proyect7.appendChild(envio7);
 }
