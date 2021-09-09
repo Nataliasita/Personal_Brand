@@ -25,10 +25,6 @@ export function home2($containerGeneral){
     description.className="description";
     description.textContent="Soy Front End Developer con una conexión especial hacia el asombroso mundo del diseño UX/UI, cuento con formación en Administración de empresas. A lo largo de mi camino profesional siempre he tenido como prioridad contribuir al bienestar y satisfacción de los usuarios. por ello siento gran pasion  por la construcción de productos digitales únicos y generar experiencias de impacto a cada uno de sus futuros usuarios.";
     home2.appendChild(description);
-    const image_logN= document.createElement("img");
-    image_logN.src='images/logo-sf.png';
-    image_logN.className ="image_logN";
-    home2.appendChild(image_logN);
     const list_home2 = document.createElement("li");
     list_home2.className ="list_home2"
     home2.appendChild(list_home2);

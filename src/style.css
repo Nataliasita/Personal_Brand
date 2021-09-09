@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background:#faf5e4;
 }
 .bigContainer{
   margin: 0;
@@ -15,52 +14,37 @@ body {
   min-height: 200vh;
   display: flex;
   position: absolute;
-  background: #00A8F3;
   flex-direction: column;
 }
 .home1{
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   background: #faf5e4;
   display: flex;
   font-family: 'Pattaya', sans-serif;
-  color: #005D87;
-}
-.triangle_blue{
-  height: 100vh;
-  width: 100vw;
-  background-image:linear-gradient(-230deg,#68e2dcc7,#00A8F3,#00A8F3);
-  background-size:100%;
-}
-.triangle_blue::after {
-  content:"";
-  position:absolute;
-  border-right:50vw  solid #faf5e4;
-  border-top: 50vh  solid transparent;
-  border-left:50vw  solid transparent;
-  border-bottom: 50vh solid #faf5e4;
-  top:0;
-  left: 0;
-  padding: 0;
-  z-index:2;
-}
-.btfly_fondo{
-  padding: 0;
-  background: url("images/fondo_home1G.png");
-  background-repeat: no-repeat;
-  background-size:100% 100%;
-  padding: 0;
-  height: 86vh;
-  width: 39vw;
-  right: -2vw;
-  top: -2vh;
-  z-index: 5;
-  position:absolute;
-}
+  color: #ebebeb;
+  background-image: linear-gradient(230deg,#000000, #060125, #000435,#121230,#131630, #060e1d, #00012b);
+  background-size: 500%;
+  animation: parfait1 50s infinite;
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+  }
+  @keyframes parfait1{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
 .author{
   text-align:left;
-  margin-left: 7vw;
-  margin-top: 18vh;
+  margin-left: 10vw;
+  margin-top: 22vh;
   font-size: 2.5em;
   font-weight: 600;
   position: absolute;
@@ -70,19 +54,21 @@ body {
   background: url("images/bt_grande.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 61vh ;
-  width:30vw ;
+  height: 55vh ;
+  width:28vw ;
   position: absolute;
   z-index: 8;
-  margin-left: 28vw;
-  margin-top: 32vh;
-  transform: rotate(-6deg);
+  margin-left: 16vw;
+  margin-top: 30vh;
+  transform: rotate(-9deg);
+  opacity: 0.5;
+  filter: blur(80px);
 }
 .btfly_big:hover{
   background: url("images/bt_grande.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;;
-  height: 61vh ;
+  height: 58vh ;
   width:30vw ;
   margin-left: 22vw;
   margin-top: 22vh;
@@ -90,15 +76,15 @@ body {
   z-index: 8;
 }
 .circle{
-    width: 15vw;
-    height: 33vh;
+    width: 12.8vw;
+    height: 28vh;
     background: #faf5e4;
     border-radius: 1000px;
     z-index: 8;
     padding: 0;
     position: absolute;
-    right: 22vw;
-    margin-top: 15vh;
+    right: 20vw;
+    margin-top: 21vh;
     box-shadow: 2px 2px 5px #999;
     background-image:url("images/logosfimg.png");
     background-repeat: no-repeat;
@@ -124,66 +110,56 @@ body {
 }
 .down:hover{
   z-index: 31;
-  background-image:url("images/bt-complete.png"),url("images/flecha_az.png");
-  background-repeat: no-repeat,no-repeat;
+  background-image:url("images/flecha_az.png");
+  background-repeat: no-repeat;
   background-blend-mode: lighten;
   background-position:center,center;
   height: 14vh;
   width: 9.5vw;
   margin: 90vh 0 0 44.8vw;
-  background-size: 78% 80%, 20% 26%;
+  background-size: 20% 26%;
   position: absolute;
   transform: rotate(0deg);
   opacity: 0.7;
 }
+.circle_kero{
+  width: 23.5vw;
+  height: 50vh;
+  border-radius: 1000px;
+  z-index: 7;
+  padding: 0;
+  position: absolute;
+  right: 5vw;
+  top: 38vh;
+  background-image: url("images/kero_img.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(100%);
+  box-shadow: 0 0 15px #448ee4;
+}
+
 .home2{
-  z-index: 13;
+  position: absolute;
+  top: 100vh;
   height: 100vh;
   width: 100vw;
-  display: flex;
+  color: #FFFFFF;
   font-family: 'Pattaya', sans-serif;
-  color: #005D87;
-  background-image:linear-gradient(-320deg,#85d8dbf1,#00A8F3,#00A8F3);
-  background-size:100%;
 }
 .imgNata{
   z-index: 27;
-  border-radius: 1000px;
-  height: 33vh;
+  border-radius: 10px;
+  height: 36vh;
   margin-top: 24.5vh;
   position: absolute;
   right: 32.5vw;
 }
-.piece{
-  z-index: 23;
-  border-left: 70vw solid #faf5e4;
-  border-top: 0 solid transparent;
-  border-bottom: 30vh solid transparent;
-  top:100vh;
-  left: 0;
-  padding: 0;
-  position: absolute;
-}
-.piece_two{
-  z-index: 25;
-  width: 0;
-  height: 0;
-  border-right: 27vw solid transparent;
-  border-top: 15vh solid transparent;
-  border-left: 25vw solid transparent;
-  border-bottom: 30vh solid #faf5e4;
-  top: 83vh;
-  left: -3vw;
-  padding: 0;
-  position: absolute;
-  transform: rotate(333deg);
-  margin-left: 50vw;
-}
 .bt_home_2{
   z-index: 26;
   position: absolute;
-  height: 80vh ;
-  margin-left:39vw;
+  height: 75vh ;
+  margin-left:42vw;
   margin-top: 9vh;
 }
 .author_dos{
@@ -209,12 +185,6 @@ body {
   font-family: 'lora';
   font-weight:550;
 }
-.image_logN{
-  z-index: 29;
-  height: 37vh;
-  margin-top:-6vh;
-  margin-left: -2vw;
-}
 .list_home2{
   z-index: 31;
   position: absolute;
@@ -229,7 +199,7 @@ body {
 }
 #curriculum{
   text-decoration: none;
-  color: #005D87;
+  color: #ffffff;
   font-size: 1.2em;
 }
 .list_proyect{
@@ -246,7 +216,7 @@ body {
 }
 #proyect{
   text-decoration: none;
-  color: #005D87;
+  color: #ffffff;
   font-size: 1.2em;
 }
 .down_home2{
@@ -260,20 +230,6 @@ body {
   width: 3vw;
   margin: 80vh 0 0 48vw;
 }
-.down_home2:hover{
-  z-index: 31;
-  background-image:url("images/hover_home2.png"), url("images/flecha_bl_up.png");
-  background-repeat: no-repeat,no-repeat;
-  background-blend-mode: lighten;
-  background-position:center,center;
-  height: 14vh;
-  width: 9.5vw;
-  margin: 77vh 0 0 44.8vw;
-  background-size: 80% 80%, 20% 26%;
-  position: absolute;
-  transform: rotate(0deg);
-  opacity: 0.7;
-}
 .content_all{
   height: 280vh;
   width: 100vw; 
@@ -284,10 +240,10 @@ body {
 .work_area{
   height: 280vh;
   width: 100vw;
-  background-image: linear-gradient(230deg, #00b7d4,#0B8ADB, #1823bb,#8e8cff,#b8d0f3, #00A8F3, #00CEF5);
+  background-image: linear-gradient(230deg, #00b7d4,#0B8ADB, #1823bb,#8e8cff,#77a9f3, #00A8F3, #00a7f5);
   background-size: 500%;
   animation: parfait 50s infinite;
-  opacity: 0.65;
+  opacity: 0.8;
   position: absolute;
 }
 @keyframes parfait{
@@ -450,7 +406,7 @@ body {
   margin-left: 13vw;
   position: absolute;
   width: 20vw;
-  color: #005D87;
+  color: #050047;
   text-shadow: -2px 2px 3px rgba(0,0,0,0.4);
 }
 .fondo_work{
@@ -462,7 +418,7 @@ body {
   position: absolute;
   background-size: 50% 50%;
   border-radius: 1000px;
-  opacity: 0.35;
+  opacity: 0.55;
   transform: rotate(-360deg);
   filter: blur(1px);
   filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));

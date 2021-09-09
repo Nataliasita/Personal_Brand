@@ -22,5 +22,8 @@ export function home1($containerGeneral){
     const down = document.createElement("a")
     down.className ="down"
     down.setAttribute("href","#contact")
-    home1.appendChild(down)
+    home1.appendChild(down);
+    const image_kero = document.createElement('div');
+    image_kero.className= 'circle_kero';
+    home1.appendChild(image_kero);
 }

@@ -6,6 +6,7 @@ import '../components/mobile-menu.js';
 import { home1 }from '../components/home1.js'
 import { home2 }from '../components/home2.js'
 import { work } from '../components/work_section.js';
+import { homeSnow } from '../components/snow.js';
 
 
 
@@ -13,11 +14,13 @@ export function renderHome($containerGeneral){
   Menu($containerGeneral);
   home1($containerGeneral);
   home2($containerGeneral);
+  $containerGeneral.innerHTML +=homeSnow();
 }
 export function renderContact($containerGeneral){
   Menu($containerGeneral);
   home1($containerGeneral);
   home2($containerGeneral);
+  $containerGeneral.innerHTML +=homeSnow();
 }
 
 export function renderWork($containerGeneral){
