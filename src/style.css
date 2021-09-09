@@ -149,7 +149,7 @@ body {
 }
 .imgNata{
   z-index: 27;
-  border-radius: 10px;
+  border-radius: 1000px;
   height: 36vh;
   margin-top: 24.5vh;
   position: absolute;
