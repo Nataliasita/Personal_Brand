@@ -5,7 +5,7 @@ template.innerHTML = `
     width: 100vw;
     z-index: 16;
     height: 12vh;
-    background:#005D87; 
+    background:#6B654B; 
     display: flex;
     bottom:0;
     position:absolute;

@@ -28,19 +28,19 @@ template.innerHTML = `
   }
 
 #workH{
-    color: #005D87;
+    color: #050047;
 } 
 #workH:hover{
-  border-bottom: 3px solid #005D87;
+  border-bottom: 3px solid #040036;
 }
 #homeH{
-    color: #005D87;
+    color: #050047;
 }
 #homeH:hover{
   border-bottom: 3px solid #005D87;
 }
 #contactH{
-    color: #005D87;
+    color: #050047;
 }
 #contactH:hover{
   border-bottom: 3px solid #005D87;
@@ -49,7 +49,7 @@ template.innerHTML = `
   width: 100vw;
   z-index: 16;
   height: 12vh;
-  background:#005D87; 
+  background:#53514c; 
   display: flex;
   bottom:0;
   position:absolute;
@@ -60,7 +60,7 @@ template.innerHTML = `
   padding:0.5em;
 }
 .logo_footer:hover{
-  background: #00405ed7;
+  background: #353431;
   border-radius:10px;
   padding:0.5em;
 }
@@ -126,9 +126,15 @@ class DesktopMenu extends HTMLElement {
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeHome.setAttribute("style","color: #FFFFFF;");
+        tobeContact.setAttribute("style","color: #FFFFFF;");
+        tobeWork.setAttribute("style","color: #FFFFFF;");
           break;
       case 'contact':
         tobeContact.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeHome.setAttribute("style","color: #FFFFFF;");
+        tobeContact.setAttribute("style","color: #FFFFFF;");
+        tobeWork.setAttribute("style","color: #FFFFFF;");
         break;
       default:
         break;
