@@ -66,6 +66,15 @@ h1 {
 	}
 	
 }
+@media (max-width:623px){
+
+.hero{
+   width: 100vw;
+}
+.snow{
+   height: 180vh;
+}
+}
 
  </Style>
 
@@ -73,7 +82,7 @@ h1 {
 
 <div class="snow">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">
-        <g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
+        <g fill="#FFFFFF" fill-opacity=".15" transform="translate(55 42)">
            <g id="snow-bottom-layer">
               <ellipse cx="6" cy="1009.5" rx="6" ry="5.5"/>
               <ellipse cx="138" cy="1110.5" rx="6" ry="5.5"/>

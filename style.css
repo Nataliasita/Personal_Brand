@@ -196,11 +196,15 @@ body {
   position: absolute;
   right: 7.5vw;
   margin-top: 55vh;
+  color:#448ee4;
 }
 #curriculum{
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2em;
+}
+#curriculum:hover{
+  color:#448ee4ce;
 }
 .list_proyect{
   z-index: 31;
@@ -213,11 +217,15 @@ body {
   position: absolute;
   right: 12vw;
   margin-top: 61vh;
+  color:#448ee4;
 }
 #proyect{
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2em;
+}
+#proyect:hover{
+  color:#448ee4ce;
 }
 .down_home2{
   z-index: 50;
@@ -799,7 +807,7 @@ body {
   border-radius: 30px;
   z-index: 40;
   background-image: url("images/pastry.png");
-  background-size: 88% 85%;
+  background-size: 96% 100%;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
@@ -862,7 +870,7 @@ body {
   border-radius: 30px;
   z-index: 40;
   background-image: url("images/panda.png");
-  background-size: 86% 85%;
+  background-size: 96% 100%;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
@@ -920,7 +928,7 @@ body {
 @media (max-width:623px){
   .author{
     font-size: 1.6em;
-    margin-top: 15vh;
+    margin-top: 18vh;
   }
   .btfly_big{
     height: 40vh;
@@ -944,8 +952,9 @@ body {
     width: 36vw;
     height: 20vh;
     right: 17vw;
-    margin-top: 24vh;
+    margin-top: 30vh;
     box-shadow: 2px 2px 5px #999;
+    z-index: 31;
   }
   .down{
     z-index:30;
@@ -966,15 +975,22 @@ body {
     width: 15vw;
     margin: 91vh 0 0 42vw;
   }
+.circle_kero{
+    height: 35vh;
+    width: 63vw;
+    left: 15vw;
+    z-index: 30;
+    margin-top: 4vh;
+}
   .imgNata{
     height: 23vh;
-    margin-top: 18vh;
-    right: 10vw;
+    margin-top: 16vh;
+    right: 16vw;
   }
   .bt_home_2{
     height: 45vh ;
     margin-left:9vw;
-    margin-top: 13vh;
+    margin-top: 7vh;
   }
   .image_logN{
     height: 37vh;
@@ -1000,21 +1016,6 @@ body {
     text-justify:inter-word;
     font-family: 'lora';
     font-weight:lighter;
-  }
-  .piece_two{
-    z-index: 25;
-    width: 0;
-    height: 0;
-    border-right: 27vw solid transparent;
-    border-top: 15vh solid transparent;
-    border-left: 25vw solid transparent;
-    border-bottom: 20vh solid #faf5e4;
-    top: 83vh;
-    left: -3vw;
-    padding: 0;
-    position: absolute;
-    transform: rotate(280deg);
-    margin-left: 37vw;
   }
   .list_home2{
     left: 10vw;
@@ -1464,7 +1465,7 @@ body {
     border-radius: 30px;
     z-index: 40;
     background-image: url("images/pastry.png");
-    background-size: 90% 85%;
+    background-size: 95% 100%;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
@@ -1526,7 +1527,7 @@ body {
     border-radius: 30px;
     z-index: 40;
     background-image:url("images/panda.png");
-    background-size: 90% 85%;
+    background-size: 95% 100%;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);

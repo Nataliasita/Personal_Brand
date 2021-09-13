@@ -31,19 +31,21 @@ template.innerHTML = `
     color: #050047;
 } 
 #workH:hover{
-  border-bottom: 3px solid #040036;
+  border-bottom: 3px solid #FFFFFF;
 }
 #homeH{
     color: #050047;
 }
 #homeH:hover{
-  border-bottom: 3px solid #005D87;
+  border-bottom: 3px solid #FFFFFF;
+  
 }
 #contactH{
     color: #050047;
 }
 #contactH:hover{
-  border-bottom: 3px solid #005D87;
+  border-bottom: 3px solid #FFFFFF;
+  
 }
 .footer{
   width: 100vw;
@@ -121,17 +123,17 @@ class DesktopMenu extends HTMLElement {
 
     switch (this.hash) {
       case 'work':
-        tobeWork.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeWork.setAttribute("style","border-bottom: 3px solid #050047;");
         foot_work.setAttribute("style","top:280vh;");
         break;
       case 'home':
-        tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeHome.setAttribute("style","border-bottom: 3px solid #050047;");
         tobeHome.setAttribute("style","color: #FFFFFF;");
         tobeContact.setAttribute("style","color: #FFFFFF;");
         tobeWork.setAttribute("style","color: #FFFFFF;");
           break;
       case 'contact':
-        tobeContact.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeContact.setAttribute("style","border-bottom: 3px solid #050047;");
         tobeHome.setAttribute("style","color: #FFFFFF;");
         tobeContact.setAttribute("style","color: #FFFFFF;");
         tobeWork.setAttribute("style","color: #FFFFFF;");

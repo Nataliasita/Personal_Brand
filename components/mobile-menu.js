@@ -28,28 +28,28 @@ template.innerHTML = `
   }
 
 #workH{
-    color: #005D87;
+    color: #050047;
 } 
 #workH:hover{
-  border-bottom: 3px solid #005D87;
+  border-bottom: 3px solid #FFFFFF;
 }
 #homeH{
-    color: #005D87;
+    color: #050047;
 }
 #homeH:hover{
-  border-bottom: 3px solid #005D87;
+  border-bottom: 3px solid #FFFFFF;
 }
 #contactH{
-    color: #005D87;
+    color: #050047;
 }
 #contactH:hover{
-  border-bottom: 3px solid #005D87;
+  border-bottom: 3px solid #FFFFFF;
 }
 .footer{
   width: 100vw;
   z-index: 16;
   height: 10vh;
-  background:#005D87; 
+  background:#53514c; 
   display: flex;
   bottom:0;
   position:absolute;
@@ -126,14 +126,20 @@ class MobileMenu extends HTMLElement {
 
     switch (this.hash) {
       case 'work':
-        tobeWork.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeWork.setAttribute("style","border-bottom: 3px solid #050047;");
         foot_work.setAttribute("style","top:380vh;");
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeHome.setAttribute("style","color: #FFFFFF;");
+        tobeContact.setAttribute("style","color: #FFFFFF;");
+        tobeWork.setAttribute("style","color: #FFFFFF;");
           break;
       case 'contact':
         tobeContact.setAttribute("style","border-bottom: 3px solid #005D87;");
+        tobeHome.setAttribute("style","color: #FFFFFF;");
+        tobeContact.setAttribute("style","color: #FFFFFF;");
+        tobeWork.setAttribute("style","color: #FFFFFF;");
         break;
       default:
         break;
