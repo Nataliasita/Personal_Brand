@@ -239,20 +239,19 @@ body {
   margin: 80vh 0 0 48vw;
 }
 .content_all{
-  height: 564vh;
+  height: 482vh;
   width: 100vw; 
   position: absolute;
   font-family: 'Pattaya', sans-serif;
 }
 .work_area{
-  height: 564vh;
+  height: 430vh;
   width: 100vw;
   background-image: linear-gradient(230deg, #0021b3,#135fc2, #326cc4,#aab0ff,#396fc0, #1965c9, #0022b9);
   background-size: 500%;
   animation: parfait 50s infinite;
   opacity: 0.6;
   position: absolute;
-  background-color: #010868;
 }
 @keyframes parfait{
   0%{
@@ -314,7 +313,7 @@ body {
 #dec5{
   z-index: 30;
   height: 25vh;
-  margin-top: 535vh;
+  margin-top: 335vh;
   left: 15vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -362,8 +361,8 @@ body {
 #dec10{
   z-index: 30;
   height: 25vh;
-  margin-top: 470vh;
-  right: 32vw;
+  margin-top: 350vh;
+  right: 3vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -371,8 +370,8 @@ body {
 #dec11{
   z-index: 30;
   height: 25vh;
-  margin-top: 515vh;
-  left: 11vw;
+  margin-top: 230vh;
+  left: 1vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -381,8 +380,8 @@ body {
 #dec12{
   z-index: 30;
   height: 18vh;
-  margin-top: 545vh;
-  left: 5vw;
+  margin-top: 320vh;
+  left: 2vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -471,7 +470,7 @@ body {
   border-bottom-left-radius: 15px;
 }
 #bienvenida{
-  width: 88vw;
+  width: 100vw;
   margin-top: 62vh;
   position: absolute;
   color: #eeeeee;
@@ -483,7 +482,7 @@ body {
   font-family: 'lora';
   font-weight: 530;
   /* background-color:#001f2e27; */
-  padding: 2vh 5vw 2vh 15vw;
+  padding: 2.5vh 15vw 2.5vh 15vw;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   backdrop-filter: blur(4px);
@@ -491,7 +490,7 @@ body {
  
 }
 .group_pro{
-  height: 476vh ;
+  height: 385vh ;
   width: 100vw ;
   margin-top: 88vh;
   margin-left: 0;
@@ -505,8 +504,8 @@ body {
 .box1{
   background-color: #dddddd;
   width: 78vw;
-  height: 60vh;
-  margin-left: 10vw;
+  height: 55vh;
+  margin-left: 0;
   margin-bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 15px;
@@ -596,8 +595,8 @@ body {
 .box2{
   background-color: #dddddd;
   width: 78vw;
-  height: 60vh;
-  margin-left: 10vw;
+  height: 55vh;
+  margin-left: 21vw;
   margin-bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 15px;
@@ -690,8 +689,8 @@ body {
 .box3{
   background-color: #dbdbdb;
   width: 78vw;
-  height: 60vh;
-  margin-left: 10vw;
+  height: 55vh;
+  margin-left: 0;
   margin-bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 15px;
@@ -781,8 +780,8 @@ body {
 .box4{
   background-color: #dbdbdb;
   width: 78vw;
-  height: 60vh;
-  margin-left: 10vw;
+  height: 55vh;
+  margin-left: 21vw;
   margin-bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 15px;
@@ -871,8 +870,8 @@ body {
 .box5{
   background-color: #dbdbdb;
   width: 78vw;
-  height: 60vh;
-  margin-left: 10vw;
+  height: 55vh;
+  margin-left: 0;
   margin-bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 15px;
@@ -970,10 +969,10 @@ body {
 }
 #proyect4{
   background: #faf5e4;
-  width: 30vw;
-  height: 40vh;
+  width: 25vw;
+  height: 38vh;
   margin: 8vh 0 0 4vw;
-  border-radius: 30px;
+  border-radius: 800px;
   z-index: 40;
   position: absolute;
   background-image: url("images/smartwacht.png");
@@ -998,7 +997,7 @@ body {
   width: 30vw;
   height: 40vh;
   margin: 8vh 0 0 40vw;
-  border-radius: 30px;
+  border-radius: 1000px;
   z-index: 40;
   background-image: url("images/ker.gif");
   background-size: 100% 100%;
@@ -1026,6 +1025,13 @@ body {
   margin-bottom:0;
   align-items: center;
 } 
+.title_box6{
+  position: absolute;
+  margin: -67vh 0 0 2vw ;
+  font-size: 1.7em;
+
+
+}
 #proyect5{
   background:#ea526ef1;
   width: 30vw;
@@ -1348,7 +1354,7 @@ body {
     margin: 82vh 0 0 40vw;
   }
   .content_all{
-    height: 385vh;
+    height: 384vh;
     width: 100vw; 
     position: absolute;
     font-family: 'Pattaya', sans-serif;

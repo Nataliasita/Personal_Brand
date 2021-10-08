@@ -263,26 +263,30 @@ export function work ($containerGeneral){
     content_card2.textContent ="Diseño y construccion de pagina web para simulacion de compra cifrada con tarjeta de credito.";
     description_card.appendChild(content_card2);
 
-    const box7= document.createElement("div");
-    box7.className = ("box7");
-    group_proyect.appendChild(box7);
-    const proyect4 = document.createElement('div');
-    proyect4.setAttribute("id", "proyect4");
-    box7.appendChild(proyect4);
-    const img_proyect4 = document.createElement("div");
-    img_proyect4.setAttribute("id", "img_proyect4");
-    proyect4.appendChild(img_proyect4);
+    // const box7= document.createElement("div");
+    // box7.className = ("box7");
+    // group_proyect.appendChild(box7);
+    // const proyect4 = document.createElement('div');
+    // proyect4.setAttribute("id", "proyect4");
+    // box7.appendChild(proyect4);
+    // const img_proyect4 = document.createElement("div");
+    // img_proyect4.setAttribute("id", "img_proyect4");
+    // proyect4.appendChild(img_proyect4);
 
-    const proyectK = document.createElement('div');
-    proyectK .setAttribute("id", "proyectK");
-    box7.appendChild(proyectK);
-    const img_kero = document.createElement("div");
-    img_kero.setAttribute("id", "img_kero");
-    proyectK.appendChild(img_kero);
+    // const proyectK = document.createElement('div');
+    // proyectK .setAttribute("id", "proyectK");
+    // box7.appendChild(proyectK);
+    // const img_kero = document.createElement("div");
+    // img_kero.setAttribute("id", "img_kero");
+    // proyectK.appendChild(img_kero);
 
     const box6= document.createElement("div");
     box6.className = ("box6");
     group_proyect.appendChild(box6);
+    const title_box6 = document.createElement("p");
+    title_box6.className=('title_box6');
+    title_box6.textContent="Study Cases - Certification Google UX Design";
+    box6.appendChild(title_box6);
     const proyect5 = document.createElement('div');
     proyect5.setAttribute("id", "proyect5");
     box6.appendChild(proyect5);
