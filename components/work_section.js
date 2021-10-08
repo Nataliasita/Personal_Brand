@@ -1,3 +1,4 @@
+
 export function work ($containerGeneral){
 //    console.log($containerGeneral)
     const content_all = document.createElement("section");
@@ -92,9 +93,86 @@ export function work ($containerGeneral){
     const group_proyect = document.createElement('div');
     group_proyect.className ="group_pro";
     content_all.appendChild(group_proyect);
+
+    // componente reto hexacta
+    const box1= document.createElement("div");
+    box1.className = ("box1");
+    group_proyect.appendChild(box1);
+    const proyect_talent = document.createElement('div');
+    proyect_talent.setAttribute("id", "proyect_talent");
+    box1.appendChild(proyect_talent);
+    const img_proyect_talent = document.createElement("div");
+    img_proyect_talent.setAttribute("id", "img_proyect_talent");
+    proyect_talent.appendChild(img_proyect_talent);
+    const title_talent = document.createElement("p");
+    title_talent.setAttribute("id", "title_talent");
+    title_talent.textContent = "Points Team Hexacta";
+    img_proyect_talent.appendChild(title_talent);
+    const title_talent2 = document.createElement("a");
+    title_talent2.setAttribute("id", "title_talent2");
+    title_talent2.setAttribute("href","https://objective-sinoussi-95f889.netlify.app/");
+    img_proyect_talent.appendChild(title_talent2);
+    const touch_talent = document.createElement("img");
+    touch_talent.src='images/hand.png';
+    touch_talent.setAttribute("id", "touch_talent");
+    proyect_talent.appendChild(touch_talent);
+    const description_talent = document.createElement("div");
+    description_talent.className=("description_talent");
+    box1.appendChild(description_talent);
+    const valid1 = document.createElement("p");
+    valid1.className=("valid1");
+    valid1.textContent ="Points Team Hexacta"
+    description_talent.appendChild(valid1);
+    const content1= document.createElement("li");
+    content1.className=("content1");
+    content1.textContent ="1er Puesto Hackaton Talent Fest Laboratoria 2021 "
+    description_talent.appendChild(content1);
+    const content2= document.createElement("li");
+    content2.className=("content1");
+    content2.textContent ="Diseño y construccion de MVP pagina web SPA (single page application) para redencion catalogo de puntos colaboradores "
+    description_talent.appendChild(content2);
+
+    // componente nasa
+    const box2= document.createElement("div");
+    box2.className = ("box2");
+    group_proyect.appendChild(box2);
+    const proyect_nasa = document.createElement('div');
+    proyect_nasa.setAttribute("id", "proyect_nasa");
+    box2.appendChild(proyect_nasa);
+    const img_proyect_nasa = document.createElement("div");
+    img_proyect_nasa.setAttribute("id", "img_proyect_nasa");
+    proyect_nasa.appendChild(img_proyect_nasa);
+    const title_nasa = document.createElement("p");
+    title_nasa.setAttribute("id", "title_nasa");
+    title_nasa.textContent = "X-plorer Jupiter Game";
+    img_proyect_nasa.appendChild(title_nasa);
+    const title_nasa2 = document.createElement("a");
+    title_nasa2.setAttribute("id", "title_nasa2");
+    title_nasa2.setAttribute("href","http://ec2-18-221-34-104.us-east-2.compute.amazonaws.com/#home");
+    img_proyect_nasa.appendChild(title_nasa2);
+    const description_nasa = document.createElement("div");
+    description_nasa.className=("description_nasa");
+    box2.appendChild(description_nasa);
+    const valid2 = document.createElement("p");
+    valid2.className=("valid2");
+    valid2.textContent ="X-plorer Jupiter Game";
+    description_nasa.appendChild(valid2);
+    const content_nasa= document.createElement("li");
+    content_nasa.className=("content_nasa");
+    content_nasa.textContent ="Hackaton NASA Space Apps Challenge"
+    description_nasa.appendChild(content_nasa);
+    const content4= document.createElement("li");
+    content4.className=("content_nasa");
+    content4.textContent ="Diseño y construccion de MVP juego educativo enfocado a fomentar en los niños en edad preescolar, el interés por la ciencia, la investigación y el espacio. Logrando a través de la curiosidad y el juego que puedan generar conocimientos científicos solidos."
+    description_nasa.appendChild(content4);
+
+
+    const box3= document.createElement("div");
+    box3.className = ("box3");
+    group_proyect.appendChild(box3);
     const proyect1 = document.createElement('div');
     proyect1.setAttribute("id", "proyect1");
-    group_proyect.appendChild(proyect1);
+    box3.appendChild(proyect1);
     const img_proyect1 = document.createElement("div");
     img_proyect1.setAttribute("id", "img_proyect1");
     proyect1.appendChild(img_proyect1);
@@ -102,21 +180,29 @@ export function work ($containerGeneral){
     title_1.setAttribute("id", "title_1");
     title_1.textContent = "Data Lovers";
     img_proyect1.appendChild(title_1);
-    const title_2 = document.createElement("p");
+    const title_2 = document.createElement("a");
     title_2.setAttribute("id", "title_2");
-    title_2.textContent ="Diseño y construccion Pagina web Base de datos juego Pokemon GO" 
+    title_2.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/");
     img_proyect1.appendChild(title_2);
-    const envio1 = document.createElement("a");
-    envio1.setAttribute("id", "envio1");
-    envio1.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/");
-    img_proyect1.appendChild(envio1);
-    const touch = document.createElement("img");
-    touch.src='images/hand.png';
-    touch.setAttribute("id", "touch");
-    proyect1.appendChild(touch);
+    const description_lovers = document.createElement("div");
+    description_lovers.className=("description_lovers");
+    box3.appendChild(description_lovers);
+    const valid_love = document.createElement("p");
+    valid_love.className=("valid_love");
+    valid_love.textContent ="Data Lovers";
+    description_lovers.appendChild(valid_love);
+    const content_love2= document.createElement("li");
+    content_love2.className=("content_love");
+    content_love2.textContent ="Diseño y construccion pagina web catalogo SPA (single page application) con manejo de base de datos Juego Pokemon Go."
+    description_lovers.appendChild(content_love2);
+
+
+    const box4= document.createElement("div");
+    box4.className = ("box4");
+    group_proyect.appendChild(box4);
     const proyect2 = document.createElement('div');
     proyect2.setAttribute("id", "proyect2");
-    group_proyect.appendChild(proyect2);
+    box4.appendChild(proyect2);
     const img_proyect2 = document.createElement("div");
     img_proyect2.setAttribute("id", "img_proyect2");
     proyect2.appendChild(img_proyect2);
@@ -124,17 +210,32 @@ export function work ($containerGeneral){
     title_pr.setAttribute("id", "title_pr");
     title_pr.textContent = "Social Network";
     img_proyect2.appendChild(title_pr);
-    const title_pr2 = document.createElement("p");
+    const title_pr2 = document.createElement("a");
     title_pr2.setAttribute("id", "title_pr2");
-    title_pr2.textContent ="Diseño y construccion Pagina web Red Social para Viajeros" 
+    title_pr2.setAttribute("href","https://nataliasita.github.io/BOG002-social-network/");
     img_proyect2.appendChild(title_pr2);
-    const envio2 = document.createElement("a");
-    envio2.setAttribute("id", "envio2");
-    envio2.setAttribute("href","https://nataliagaravito.github.io/BOG002-social-network/")
-    img_proyect2.appendChild(envio2);
+    const description_social = document.createElement("div");
+    description_social.className=("description_social");
+    box4.appendChild(description_social);
+    const valid_social = document.createElement("p");
+    valid_social.className=("valid_social");
+    valid_social.textContent ="Social Network";
+    description_social.appendChild(valid_social);
+    const content_social= document.createElement("li");
+    content_social.className=("content_social");
+    content_social.textContent ="Red social para viajeros";
+    description_social.appendChild(content_social);
+    const content_social2= document.createElement("li");
+    content_social2.className=("content_social");
+    content_social2.textContent ="Diseño Mobile-First y construccion de pagina web responsive para viajeros con publicaciones y mensajes con conexion a base de datos realtime firebase.";
+    description_social.appendChild(content_social2);
+
+    const box5= document.createElement("div");
+    box5.className = ("box5");
+    group_proyect.appendChild(box5);
     const proyect3 = document.createElement('div');
     proyect3.setAttribute("id", "proyect3");
-    group_proyect.appendChild(proyect3);
+    box5.appendChild(proyect3);
     const img_proyect3 = document.createElement("div");
     img_proyect3.setAttribute("id", "img_proyect3");
     proyect3.appendChild(img_proyect3);
@@ -142,31 +243,53 @@ export function work ($containerGeneral){
     title_pr3.setAttribute("id", "title_pr3");
     title_pr3.textContent = "Card Validation";
     img_proyect3.appendChild(title_pr3);
-    const title_pr31 = document.createElement("p");
+    const title_pr31 = document.createElement("a");
     title_pr31.setAttribute("id", "title_pr31");
-    title_pr31.textContent ="Diseño y construccion Pagina web Validacion Tarjeta de credito Tienda Cosmetica" 
+    title_pr31.setAttribute("href","https://nataliagaravito.github.io/BOG002-card-validation/")
     img_proyect3.appendChild(title_pr31);
-    const envio3 = document.createElement("a");
-    envio3.setAttribute("id", "envio3");
-    envio3.setAttribute("href","https://nataliagaravito.github.io/BOG002-card-validation/")
-    img_proyect3.appendChild(envio3);
-    const proyect4 = document.createElement('div');
-    proyect4.setAttribute("id", "proyect4");
-    group_proyect.appendChild(proyect4);
-    const img_proyect4 = document.createElement("div");
-    img_proyect4.setAttribute("id", "img_proyect4");
-    proyect4.appendChild(img_proyect4);
-    const title_pr4 = document.createElement("p");
-    title_pr4.setAttribute("id", "title_pr4");
-    title_pr4.textContent = "Diseñamos Juntos";
-    img_proyect4.appendChild(title_pr4);
-    const title_pr41 = document.createElement("p");
-    title_pr41.setAttribute("id", "title_pr41");
-    title_pr41.textContent ="Diseños para nueva carátula de smartwatches" 
-    img_proyect4.appendChild(title_pr41);
+    const description_card = document.createElement("div");
+    description_card.className=("description_card");
+    box5.appendChild(description_card);
+    const valid_card = document.createElement("p");
+    valid_card.className=("valid_card");
+    valid_card.textContent ="Card Validation";
+    description_card.appendChild(valid_card);
+    const content_card= document.createElement("li");
+    content_card.className=("content_card");
+    content_card.textContent ="Proceso compra tarjeta de credito";
+    description_card.appendChild(content_card);
+    const content_card2= document.createElement("li");
+    content_card2.className=("content_card");
+    content_card2.textContent ="Diseño y construccion de pagina web para simulacion de compra cifrada con tarjeta de credito.";
+    description_card.appendChild(content_card2);
+
+    // const box7= document.createElement("div");
+    // box7.className = ("box7");
+    // group_proyect.appendChild(box7);
+    // const proyect4 = document.createElement('div');
+    // proyect4.setAttribute("id", "proyect4");
+    // box7.appendChild(proyect4);
+    // const img_proyect4 = document.createElement("div");
+    // img_proyect4.setAttribute("id", "img_proyect4");
+    // proyect4.appendChild(img_proyect4);
+
+    // const proyectK = document.createElement('div');
+    // proyectK .setAttribute("id", "proyectK");
+    // box7.appendChild(proyectK);
+    // const img_kero = document.createElement("div");
+    // img_kero.setAttribute("id", "img_kero");
+    // proyectK.appendChild(img_kero);
+
+    const box6= document.createElement("div");
+    box6.className = ("box6");
+    group_proyect.appendChild(box6);
+    const title_box6 = document.createElement("p");
+    title_box6.className=('title_box6');
+    title_box6.textContent="Study Cases - Certification Google UX Design";
+    box6.appendChild(title_box6);
     const proyect5 = document.createElement('div');
     proyect5.setAttribute("id", "proyect5");
-    group_proyect.appendChild(proyect5);
+    box6.appendChild(proyect5);
     const img_proyect5 = document.createElement("div");
     img_proyect5.setAttribute("id", "img_proyect5");
     proyect5.appendChild(img_proyect5);
@@ -176,7 +299,7 @@ export function work ($containerGeneral){
     img_proyect5.appendChild(title_pr5);
     const title_pr51 = document.createElement("p");
     title_pr51.setAttribute("id", "title_pr51");
-    title_pr51.textContent =" Google UX Design - Design a flower catalog application mobile for a florist in Buenos Aires" 
+    title_pr51.textContent ="Design a flower catalog application mobile for a florist in Buenos Aires" 
     img_proyect5.appendChild(title_pr51);
     const envio5 = document.createElement("a");
     envio5.setAttribute("id", "envio5");
@@ -185,7 +308,7 @@ export function work ($containerGeneral){
     img_proyect5.appendChild(envio5);
     const proyect6 = document.createElement('div');
     proyect6.setAttribute("id", "proyect6");
-    group_proyect.appendChild(proyect6);
+    box6.appendChild(proyect6);
     const img_proyect6 = document.createElement("div");
     img_proyect6.setAttribute("id", "img_proyect6");
     proyect6.appendChild(img_proyect6);
@@ -195,14 +318,14 @@ export function work ($containerGeneral){
     img_proyect6.appendChild(title_pr6);
     const title_pr61 = document.createElement("p");
     title_pr61.setAttribute("id", "title_pr61");
-    title_pr61.textContent =" Google UX Design - Desing a website responsive shopping experience for a french patisserie"
+    title_pr61.textContent ="Desing a website responsive shopping experience for a french patisserie"
     img_proyect6.appendChild(title_pr61);
     const envio6 = document.createElement("a");
     envio6.setAttribute("id", "envio6");
     img_proyect6.appendChild(envio6);
     const proyect7 = document.createElement('div');
     proyect7.setAttribute("id", "proyect7");
-    group_proyect.appendChild(proyect7);
+    box6.appendChild(proyect7);
     const img_proyect7 = document.createElement("div");
     img_proyect7.setAttribute("id", "img_proyect7");
     proyect7.appendChild(img_proyect7);
@@ -212,11 +335,13 @@ export function work ($containerGeneral){
     img_proyect7.appendChild(title_pr7);
     const title_pr71 = document.createElement("p");
     title_pr71.setAttribute("id", "title_pr71");
-    title_pr71.textContent =" Google UX Design - Design a cross-platform tool to help conserve an endangered species of panda" 
+    title_pr71.textContent ="Design a cross-platform tool to help conserve an endangered species of panda" 
     img_proyect7.appendChild(title_pr71);
     const envio7 = document.createElement("a");
     envio7.setAttribute("id", "envio6");
     envio7.setAttribute("href",'./Personal_Brand/components/csworldPanda.pdf');
     envio7.setAttribute("download",'csworldPanda.pdf');
     img_proyect7.appendChild(envio7);
+
+    
 }
