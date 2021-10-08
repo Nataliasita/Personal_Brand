@@ -124,7 +124,7 @@ class DesktopMenu extends HTMLElement {
     switch (this.hash) {
       case 'work':
         tobeWork.setAttribute("style","border-bottom: 3px solid #050047;");
-        foot_work.setAttribute("style","top:280vh;");
+        foot_work.setAttribute("style","top:680vh;");
         break;
       case 'home':
         tobeHome.setAttribute("style","border-bottom: 3px solid #050047;");
