@@ -180,14 +180,22 @@ export function work ($containerGeneral){
     title_1.setAttribute("id", "title_1");
     title_1.textContent = "Data Lovers";
     img_proyect1.appendChild(title_1);
-    const title_2 = document.createElement("p");
+    const title_2 = document.createElement("a");
     title_2.setAttribute("id", "title_2");
-    title_2.textContent ="Diseño y construccion Pagina web Base de datos juego Pokemon GO" 
+    title_2.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/");
     img_proyect1.appendChild(title_2);
-    const envio1 = document.createElement("a");
-    envio1.setAttribute("id", "envio1");
-    envio1.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/");
-    img_proyect1.appendChild(envio1);
+    const description_lovers = document.createElement("div");
+    description_lovers.className=("description_lovers");
+    box3.appendChild(description_lovers);
+    const valid_love = document.createElement("p");
+    valid_love.className=("valid_love");
+    valid_love.textContent ="Data Lovers";
+    description_lovers.appendChild(valid_love);
+    const content_love2= document.createElement("li");
+    content_love2.className=("content_love");
+    content_love2.textContent ="Diseño y construccion pagina web catalogo SPA (single page application) con manejo de base de datos Juego Pokemon Go."
+    description_lovers.appendChild(content_love2);
+
 
     const box4= document.createElement("div");
     box4.className = ("box4");
@@ -202,14 +210,26 @@ export function work ($containerGeneral){
     title_pr.setAttribute("id", "title_pr");
     title_pr.textContent = "Social Network";
     img_proyect2.appendChild(title_pr);
-    const title_pr2 = document.createElement("p");
+    const title_pr2 = document.createElement("a");
     title_pr2.setAttribute("id", "title_pr2");
-    title_pr2.textContent ="Diseño y construccion Pagina web Red Social para Viajeros" 
+    title_pr2.setAttribute("href","https://nataliasita.github.io/BOG002-social-network/");
     img_proyect2.appendChild(title_pr2);
-    const envio2 = document.createElement("a");
-    envio2.setAttribute("id", "envio2");
-    envio2.setAttribute("href","https://nataliagaravito.github.io/BOG002-social-network/")
-    img_proyect2.appendChild(envio2);
+    const description_social = document.createElement("div");
+    description_social.className=("description_social");
+    box4.appendChild(description_social);
+    const valid_social = document.createElement("p");
+    valid_social.className=("valid_social");
+    valid_social.textContent ="Social Network";
+    description_social.appendChild(valid_social);
+    const content_social= document.createElement("li");
+    content_social.className=("content_social");
+    content_social.textContent ="Red social para viajeros";
+    description_social.appendChild(content_social);
+    const content_social2= document.createElement("li");
+    content_social2.className=("content_social");
+    content_social2.textContent ="Diseño Mobile-First y construccion de pagina web responsive para viajeros con publicaciones y mensajes con conexion a base de datos realtime firebase.";
+    description_social.appendChild(content_social2);
+
     const box5= document.createElement("div");
     box5.className = ("box5");
     group_proyect.appendChild(box5);
@@ -223,14 +243,25 @@ export function work ($containerGeneral){
     title_pr3.setAttribute("id", "title_pr3");
     title_pr3.textContent = "Card Validation";
     img_proyect3.appendChild(title_pr3);
-    const title_pr31 = document.createElement("p");
+    const title_pr31 = document.createElement("a");
     title_pr31.setAttribute("id", "title_pr31");
-    title_pr31.textContent ="Diseño y construccion Pagina web Validacion Tarjeta de credito Tienda Cosmetica" 
+    title_pr31.setAttribute("href","https://nataliagaravito.github.io/BOG002-card-validation/")
     img_proyect3.appendChild(title_pr31);
-    const envio3 = document.createElement("a");
-    envio3.setAttribute("id", "envio3");
-    envio3.setAttribute("href","https://nataliagaravito.github.io/BOG002-card-validation/")
-    img_proyect3.appendChild(envio3);
+    const description_card = document.createElement("div");
+    description_card.className=("description_card");
+    box5.appendChild(description_card);
+    const valid_card = document.createElement("p");
+    valid_card.className=("valid_card");
+    valid_card.textContent ="Card Validation";
+    description_card.appendChild(valid_card);
+    const content_card= document.createElement("li");
+    content_card.className=("content_card");
+    content_card.textContent ="Proceso compra tarjeta de credito";
+    description_card.appendChild(content_card);
+    const content_card2= document.createElement("li");
+    content_card2.className=("content_card");
+    content_card2.textContent ="Diseño y construccion de pagina web para simulacion de compra cifrada con tarjeta de credito.";
+    description_card.appendChild(content_card2);
 
     const box7= document.createElement("div");
     box7.className = ("box7");
@@ -241,14 +272,13 @@ export function work ($containerGeneral){
     const img_proyect4 = document.createElement("div");
     img_proyect4.setAttribute("id", "img_proyect4");
     proyect4.appendChild(img_proyect4);
-    const title_pr4 = document.createElement("p");
-    title_pr4.setAttribute("id", "title_pr4");
-    title_pr4.textContent = "Diseñamos Juntos";
-    img_proyect4.appendChild(title_pr4);
-    const title_pr41 = document.createElement("p");
-    title_pr41.setAttribute("id", "title_pr41");
-    title_pr41.textContent ="Diseños para nueva carátula de smartwatches" 
-    img_proyect4.appendChild(title_pr41);
+
+    const proyectK = document.createElement('div');
+    proyectK .setAttribute("id", "proyectK");
+    box7.appendChild(proyectK);
+    const img_kero = document.createElement("div");
+    img_kero.setAttribute("id", "img_kero");
+    proyectK.appendChild(img_kero);
 
     const box6= document.createElement("div");
     box6.className = ("box6");
@@ -265,7 +295,7 @@ export function work ($containerGeneral){
     img_proyect5.appendChild(title_pr5);
     const title_pr51 = document.createElement("p");
     title_pr51.setAttribute("id", "title_pr51");
-    title_pr51.textContent =" Google UX Design - Design a flower catalog application mobile for a florist in Buenos Aires" 
+    title_pr51.textContent ="Design a flower catalog application mobile for a florist in Buenos Aires" 
     img_proyect5.appendChild(title_pr51);
     const envio5 = document.createElement("a");
     envio5.setAttribute("id", "envio5");
@@ -284,7 +314,7 @@ export function work ($containerGeneral){
     img_proyect6.appendChild(title_pr6);
     const title_pr61 = document.createElement("p");
     title_pr61.setAttribute("id", "title_pr61");
-    title_pr61.textContent =" Google UX Design - Desing a website responsive shopping experience for a french patisserie"
+    title_pr61.textContent ="Desing a website responsive shopping experience for a french patisserie"
     img_proyect6.appendChild(title_pr61);
     const envio6 = document.createElement("a");
     envio6.setAttribute("id", "envio6");
@@ -301,7 +331,7 @@ export function work ($containerGeneral){
     img_proyect7.appendChild(title_pr7);
     const title_pr71 = document.createElement("p");
     title_pr71.setAttribute("id", "title_pr71");
-    title_pr71.textContent =" Google UX Design - Design a cross-platform tool to help conserve an endangered species of panda" 
+    title_pr71.textContent ="Design a cross-platform tool to help conserve an endangered species of panda" 
     img_proyect7.appendChild(title_pr71);
     const envio7 = document.createElement("a");
     envio7.setAttribute("id", "envio6");
