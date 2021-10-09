@@ -1043,7 +1043,7 @@ body {
   width:100vw;
   height:70vh;
   z-index:24;
-  opacity: 0.3;
+  opacity: 0.25;
   background-image: url('images/luz.jpg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
@@ -1946,7 +1946,6 @@ body {
     width:100vw;
     height:120vh;
     z-index:24;
-    opacity: 0.17;
     background-image: url('images/luz.jpg');
     background-size: 100% 200%;
     background-repeat: no-repeat;
