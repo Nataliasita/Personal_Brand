@@ -1042,9 +1042,8 @@ body {
   left:0;
   width:100vw;
   height:70vh;
-
   z-index:24;
-  opacity: 0.17;
+  opacity: 0.3;
   background-image: url('images/luz.jpg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
