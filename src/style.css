@@ -1386,10 +1386,10 @@ body {
   .work_area{
     height: 580vh;
     width: 100vw;
-    background-image: linear-gradient(230deg, #00b7d4,#0B8ADB, #1823bb,#8e8cff,#b8d0f3, #00A8F3, #00CEF5);
+    background-image: linear-gradient(230deg, #0021b3,#006bd0, #326cc4,#aab0ff,#396fc0, #0293e1, #0022b9);
     background-size: 500%;
     animation: parfait 50s infinite;
-    opacity: 0.75;
+    opacity: 0.6;
     position: absolute;
   }
   .circle_work{
@@ -1454,21 +1454,21 @@ body {
   }
   #bienvenida{
     width: 100vw;
-    margin-top: 58vh;
+    margin-top: 52vh;
     color: #faf5e4;
     font-size: 0.99em;
     margin-left: 0;
     font-family: 'lora';
     font-weight: lighter;
     backdrop-filter: blur(2px);
-    padding: 0.8em;
+    padding: 5vh  0.8em 1em 0.8em;
     border-radius: 0;
   }
 
   .group_pro{
     height: 145vh ;
     width: 100vw ;
-    margin-top:97vh;
+    margin-top:95vh;
     margin-left:0;
     z-index: 33;
     position: absolute;
@@ -1937,7 +1937,6 @@ body {
     margin: 0 -7.5vw 0 -7.5vw;
     padding-left: 7.5vw;
     padding-bottom: 2vh;
-    border-radius: 10px;
   } 
 
   .box6::after {
