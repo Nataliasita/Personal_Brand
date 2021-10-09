@@ -245,7 +245,7 @@ body {
   font-family: 'Pattaya', sans-serif;
 }
 .work_area{
-  height: 458vh;
+  height: 459vh;
   width: 100vw;
   background-image: linear-gradient(230deg, #0021b3,#006bd0, #326cc4,#aab0ff,#396fc0, #0293e1, #0022b9);
   background-size: 500%;
@@ -1025,14 +1025,13 @@ body {
 } */
 
 .box6{
-  background-color: #00074b;
+  background-color: #00074bc2;
   width: 100vw;
   height: 70vh;
   flex-wrap: nowrap;
   display: flex;
   margin-bottom:0;
   align-items: center;
-  
   
 } 
 .box6::after {
@@ -1043,7 +1042,7 @@ body {
   width:100vw;
   height:70vh;
   z-index:24;
-  opacity: 0.25;
+  opacity: 0.4;
   background-image: url('images/luz.jpg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
