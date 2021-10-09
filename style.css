@@ -491,7 +491,7 @@ body {
  
 }
 .group_pro{
-  height: 400vh ;
+  height: 373vh ;
   width: 100vw ;
   margin-top: 86vh;
   margin-left: 0;
@@ -1377,7 +1377,7 @@ body {
     margin: 82vh 0 0 40vw;
   }
   .content_all{
-    height: 630vh;
+    height: 620vh;
     width: 100vw; 
     position: absolute;
     font-family: 'Pattaya', sans-serif;
@@ -1539,12 +1539,13 @@ body {
     -moz-transition:margin 0.3s;
   }
   .description_talent{
-    height: 60vh;
-    width: 85vw;
+    height: 30vh;
+    width: 79vw;
     margin: 37vh 0 0 3vw;
     position: absolute;
     display: flex;
     flex-direction: column;
+   text-align: center;
   }
   .valid1{
     font-size: 1.5em;
@@ -1628,12 +1629,14 @@ body {
     -moz-transition:margin 0.3s;
   }
   .description_nasa{
-    height: 60vh;
-    width: 82vw;
+    height: 45vh;
+    width: 79vw;
     margin: 37vh 0 0 3vw;
     position: absolute;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
   }
   .valid2{
     font-size: 1.5em;
@@ -1719,11 +1722,12 @@ body {
   }  
   .description_lovers{
     height: 60vh;
-    width: 82vw;
+    width: 79vw;
     margin: 37vh 0 0 3vw;
     position: absolute;
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   .valid_love{
     font-size: 1.5em;
@@ -1809,7 +1813,7 @@ body {
   } 
   .description_social{
     height: 60vh;
-    width: 80vw;
+    width: 79vw;
     margin: 37vh 0 0 3vw;
     position: absolute;
     display: flex;
@@ -1898,7 +1902,7 @@ body {
   } 
   .description_card{
     height: 60vh;
-    width: 80vw;
+    width: 79vw;
     margin: 37vh 0 0 3vw;
     position: absolute;
     display: flex;
@@ -1919,6 +1923,7 @@ body {
     list-style-type: circle;
     color: #050047;
     font-weight: 500;
+    text-align: center;
   }
 
   .box6{
