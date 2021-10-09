@@ -1025,7 +1025,7 @@ body {
 } */
 
 .box6{
-  background-color: #00074be7;
+  background-color: #00074b;
   width: 100vw;
   height: 70vh;
   flex-wrap: nowrap;
@@ -1042,9 +1042,9 @@ body {
   width:100vw;
   height:70vh;
   z-index:24;
-  opacity: 0.4;
-  background-image: url('images/luz.jpg');
-  background-size: 100% 200%;
+  opacity: 0.3;
+  background-image: url('images/foco1.jpg');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 } 
 .title_box6{
