@@ -1042,7 +1042,7 @@ body {
   width:100vw;
   height:70vh;
   z-index:24;
-  opacity: 0.3;
+  opacity: 0.25;
   background-image: url('images/foco1.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
