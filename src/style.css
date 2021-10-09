@@ -1377,14 +1377,14 @@ body {
     margin: 82vh 0 0 40vw;
   }
   .content_all{
-    height: 620vh;
+    height: 580vh;
     width: 100vw; 
     position: absolute;
     font-family: 'Pattaya', sans-serif;
     color: #005D87;
   }
   .work_area{
-    height: 620vh;
+    height: 580vh;
     width: 100vw;
     background-image: linear-gradient(230deg, #00b7d4,#0B8ADB, #1823bb,#8e8cff,#b8d0f3, #00A8F3, #00CEF5);
     background-size: 500%;
@@ -1444,10 +1444,10 @@ body {
     opacity: 0.7;
   }
   #title_work{
-    width: 82vw;
-    font-size: 1.6em;
+    width: 75vw;
+    font-size: 1.4em;
     margin-top: 45vh;
-    margin-left:8vw;
+    margin-left:12vw;
     text-align: center;
     background-color: #00043b;
     border-radius: 10px;
@@ -1456,7 +1456,7 @@ body {
     width: 100vw;
     margin-top: 58vh;
     color: #faf5e4;
-    font-size: 1.1em;
+    font-size: 0.99em;
     margin-left: 0;
     font-family: 'lora';
     font-weight: lighter;
@@ -1467,17 +1467,18 @@ body {
 
   .group_pro{
     height: 145vh ;
-    width: 85vw ;
-    margin-top:105vh;
-    margin-left:7.5vw;
+    width: 100vw ;
+    margin-top:97vh;
+    margin-left:0;
     z-index: 33;
     position: absolute;
     display: flex;
     flex-flow: row wrap;
+    padding:0 7.5vw 0 7.5vw;
   }
   .box1{
     width: 85vw;
-    height: 69vh;
+    height: 65vh;
     border-radius: 25px;
     
   }
@@ -1548,7 +1549,7 @@ body {
    text-align: center;
   }
   .valid1{
-    font-size: 1.5em;
+    font-size: 1.4em;
     /* border-bottom: 1px solid #050047;; */
     width: 85vw;
     color: #050047;
@@ -1558,14 +1559,14 @@ body {
   .content1{
     font-family: 'lora';
     padding: 2vh 1vw -0.5vh 1vw;
-    font-size: 1.1em;
+    font-size: 1em;
     list-style-type: circle;
     color: #050047;
     font-weight: 500;
   }
   .box2{
     width: 85vw;
-    height: 84vh;
+    height: 78vh;
     border-radius: 25px;
     margin: 0 0  6vh 0;
   }
@@ -1639,7 +1640,7 @@ body {
 
   }
   .valid2{
-    font-size: 1.5em;
+    font-size: 1.4em;
     /* border-bottom: 1px solid #050047;; */
     width: 85vw;
     color: #050047;
@@ -1649,7 +1650,7 @@ body {
   }
   .content_nasa{
     font-family: 'lora';
-    font-size: 1.1em;
+    font-size: 1em;
     list-style-type: circle;
     color: #050047;
     font-weight: 500;
@@ -1658,7 +1659,7 @@ body {
   
   .box3{
     width: 85vw;
-    height: 63vh;
+    height: 58vh;
     border-radius: 25px;
     margin: 0 0  6vh 0;
   }
@@ -1730,7 +1731,7 @@ body {
     text-align: center;
   }
   .valid_love{
-    font-size: 1.5em;
+    font-size: 1.4em;
     /* border-bottom: 1px solid #050047;; */
     width: 82vw;
     color: #050047;
@@ -1741,7 +1742,7 @@ body {
   .content_love{
     font-family: 'lora';
     padding: 2vh 0 -0.5vh 1vw;
-    font-size: 1.1em;
+    font-size: 1em;
     list-style-type: circle;
     color: #050047;
     font-weight: 500;
@@ -1750,7 +1751,7 @@ body {
   
   .box4{
     width: 85vw;
-    height: 73vh;
+    height: 65vh;
     border-radius: 25px;
     margin: 0 0  6vh 0;
   }
@@ -1820,7 +1821,7 @@ body {
     flex-direction: column;
   }
   .valid_social{
-    font-size: 1.5em;
+    font-size: 1.4em;
     /* border-bottom: 1px solid #050047;; */
     width: 82vw;
     color: #050047;
@@ -1830,7 +1831,7 @@ body {
   .content_social{
     font-family: 'lora';
     padding: 2vh 0 -0.5vh 1vw;
-    font-size: 1.1em;
+    font-size: 1em;
     list-style-type: circle;
     color: #050047;
     font-weight: 500;
@@ -1839,7 +1840,7 @@ body {
   
   .box5{
     width: 85vw;
-    height: 67vh;
+    height: 59vh;
     border-radius: 25px;
     margin: 0 0  6vh 0;
   }
@@ -1909,7 +1910,7 @@ body {
     flex-direction: column;
   }
   .valid_card{
-    font-size: 1.5em;
+    font-size: 1.3em;
     /* border-bottom: 1px solid #050047;; */
     width: 82vw;
     color: #050047;
@@ -1919,7 +1920,7 @@ body {
   .content_card{
     font-family: 'lora';
     padding: 2vh 0 -0.5vh 1vw;
-    font-size: 1.1em;
+    font-size: 1em;
     list-style-type: circle;
     color: #050047;
     font-weight: 500;
@@ -1929,20 +1930,22 @@ body {
   .box6{
     background-color: #00074b;
     width: 105vw;
-    height: 120vh;
-    flex-wrap: nowrap;
+    height: 122vh;
+    flex-wrap:nowrap;
     display: flex;
     align-items: flex-start;
-    margin: 0;
-    padding: 0;
+    margin: 0 -7.5vw 0 -7.5vw;
+    padding-left: 7.5vw;
+    padding-bottom: 2vh;
     border-radius: 10px;
   } 
+
   .box6::after {
     content:"";
     position:absolute;
-    top:385vh;
+    top:354vh;
     left:0;
-    width:85vw;
+    width:100vw;
     height:120vh;
     z-index:24;
     opacity: 0.17;
