@@ -491,7 +491,7 @@ body {
  
 }
 .group_pro{
-  height: 400vh ;
+  height: 373vh ;
   width: 100vw ;
   margin-top: 86vh;
   margin-left: 0;
@@ -1377,7 +1377,7 @@ body {
     margin: 82vh 0 0 40vw;
   }
   .content_all{
-    height: 630vh;
+    height: 620vh;
     width: 100vw; 
     position: absolute;
     font-family: 'Pattaya', sans-serif;
