@@ -247,7 +247,7 @@ body {
 .work_area{
   height: 459vh;
   width: 100vw;
-  background-image: linear-gradient(230deg, #000000, #04001c, #00041c,#080918,#131630, #060e1d, #00012b);
+  background-image: linear-gradient(230deg, #000000, #04001c, #00165e,#080918,#131630, #060e1d, #00012b);
   background-size: 500%;
   animation: parfait 50s infinite;
   opacity: 1;
@@ -1393,7 +1393,7 @@ body {
   .work_area{
     height: 580vh;
     width: 100vw;
-    background-image: linear-gradient(230deg, #000000, #04001c, #00041c,#080918,#131630, #060e1d, #00012b);
+    background-image: linear-gradient(230deg, #000000, #04001c, #003654,#080918,#131630, #060e1d, #00012b);
     background-size: 500%;
     animation: parfait 50s infinite;
     opacity: 1;
