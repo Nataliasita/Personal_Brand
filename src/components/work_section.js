@@ -71,10 +71,10 @@ export function work ($containerGeneral){
     all_proyects.className=" all_proyects";
     all_proyects.textContent="Mis proyectos";
     content_all.appendChild( all_proyects);
-    const fondo_work = document.createElement("img");
-    fondo_work.src='images/fondo_work.png';
-    fondo_work.className ="fondo_work";
-    work_area.appendChild(fondo_work);
+    // const fondo_work = document.createElement("img");
+    // fondo_work.src='images/fondo_work.png';
+    // fondo_work.className ="fondo_work";
+    // work_area.appendChild(fondo_work);
     const decoration15 = document.createElement("img");
     decoration15.src='images/Group.png';
     decoration15.setAttribute("id", "dec15");
