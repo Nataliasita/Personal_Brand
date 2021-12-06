@@ -110,7 +110,7 @@ export function work ($containerGeneral){
     img_proyect_talent.appendChild(title_talent);
     const title_talent2 = document.createElement("a");
     title_talent2.setAttribute("id", "title_talent2");
-    title_talent2.setAttribute("href","https://objective-sinoussi-95f889.netlify.app/");
+    title_talent2.setAttribute("href","https://nataliasita.github.io/reto-Hexacta/#/");
     img_proyect_talent.appendChild(title_talent2);
     const touch_talent = document.createElement("img");
     touch_talent.src='images/hand.png';
