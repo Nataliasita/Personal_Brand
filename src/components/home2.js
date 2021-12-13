@@ -19,11 +19,11 @@ export function home2($containerGeneral){
     home2.appendChild(image_bt_home);
     const author_dos =document.createElement('p');
     author_dos.className="author_dos";
-    author_dos.textContent="Natalia Gonzalez";
+    author_dos.textContent="Acerca de mi...";
     home2.appendChild(author_dos);
     const description =document.createElement('p');
     description.className="description";
-    description.textContent="Soy Front End Developer con una conexión especial hacia el asombroso mundo del diseño UX/UI, cuento con formación en Administración de empresas. A lo largo de mi camino profesional siempre he tenido como prioridad contribuir al bienestar y satisfacción de los usuarios. por ello siento gran pasion  por la construcción de productos digitales únicos y generar experiencias de impacto a cada uno de sus futuros usuarios.";
+    description.textContent="Soy Front End Developer con una conexión especial al asombroso mundo del diseño UX/UI, con formación profesional en Administración de empresas de la cual obtuve grandes aprendizajes gracias a la implementación de ideas de negocio desde cero. A lo largo de mi camino profesional siempre he tenido como prioridad contribuir al bienestar y satisfacción de los usuarios. por ello siento gran pasion  por la construcción de productos digitales únicos y generar experiencias de impacto a cada uno de sus futuros usuarios.";
     home2.appendChild(description);
     const list_home2 = document.createElement("li");
     list_home2.className ="list_home2"

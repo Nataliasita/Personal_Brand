@@ -45,10 +45,12 @@ body {
   text-align:left;
   margin-left: 10vw;
   margin-top: 22vh;
-  font-size: 2.5em;
-  font-weight: 600;
+  font-size: 3.5em;
+  font-weight: 800;
   position: absolute;
   z-index: 7;
+  color: #FFFFFF;
+  font-family: 'Euphoria Script', cursive;
 }
 .btfly_big{
   background: url("images/bt_grande.png");
@@ -86,17 +88,21 @@ body {
     right: 20vw;
     margin-top: 21vh;
     box-shadow: 2px 2px 5px #999;
-    background-image:url("images/logosfimg.png");
+    background-image:url("images/new_logo.gif");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 140% 130%;
+    background-position-x: -3.5vw;
+    background-position-y: -2vh;
+    box-shadow: 0 0 15px #6ca3e2;
+    opacity: 0.97;
   }
-.circle:hover{
+/* .circle:hover{
   background-image: url("images/logo-hover.gif");
   background-repeat: no-repeat;
   background-size: 159% 180%;
   background-position: center;
   z-index: 12;
-}
+} */
 .down{
   z-index: 13;
   background-image: url("images/flecha_az.png");
@@ -166,20 +172,21 @@ body {
   text-align:left;
   margin-left: 7vw;
   margin-top: 32vh;
-  font-size: 2.5em;
-  font-weight: 600;
+  font-size: 2.2em;
+  font-weight: 500;
   position: absolute;
   z-index: 27;
+ 
 }
 .description{
   z-index: 28;
   text-align:left;
-  width: 33vw;
+  width: 32vw;
   height: 20vh;
   position: absolute;
   margin-top: 43vh;
   margin-left: 7vw;
-  font-size: 1.1em;
+  font-size: 1.05em;
   text-align:justify;
 	text-justify:inter-word;
   font-family: 'lora';
@@ -412,7 +419,10 @@ body {
   margin-top: 25vh;
   margin-left: 0vw;
   padding-left: 10vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   position: absolute;
+  font-weight: 600;
   width: 40vw;
   color: #eeeeee;
   background:linear-gradient(227.91deg, #0099ff  0%, #002fa5dc 120%);
@@ -420,7 +430,7 @@ body {
   opacity: 0.95;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-
+  font-family: 'Euphoria Script', cursive;
 }
 /* .fondo_work{
   z-index: 30;
@@ -466,7 +476,7 @@ body {
   position: absolute;
   color: #eeeeee;
   font-size: 2.1em;
-  margin-top: 50vh;
+  margin-top: 46vh;
   margin-left: 23.5vw;
   padding-left: 2vw;
   text-shadow: -2px 2px 3px rgba(0,0,0,0.4);
@@ -475,10 +485,11 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   z-index: 50;
+  
 }
 #bienvenida{
   width: 100.7vw;
-  margin-top: 46vh;
+  margin-top: 44vh;
   position: absolute;
   color: #eeeeee;
   font-size: 1.15em;
@@ -496,6 +507,7 @@ body {
   /* background-color: #00074bbd;  */
   /* border:6px solid;
   border-image: linear-gradient(227.91deg, #0099ff 0%, #002fa5 100%)1; */
+ 
 }
 .group_pro{
   height: 373vh ;
@@ -1164,8 +1176,10 @@ body {
 .title_box6{
   position: absolute;
   margin: -57vh 0 0 2vw ;
-  font-size: 1.6em;
+  font-size: 1.8em;
+  font-weight: 600;
   z-index: 40;
+  font-family: 'Euphoria Script', cursive;
 }
 #proyect5{
   background:#ea526ef1;
@@ -1362,8 +1376,9 @@ body {
 } 
 @media (max-width:623px){
   .author{
-    font-size: 1.6em;
+    font-size: 2em;
     margin-top: 18vh;
+   padding-left: 15vw;
   }
   .btfly_big{
     height: 40vh;
@@ -1390,6 +1405,9 @@ body {
     margin-top: 30vh;
     box-shadow: 2px 2px 5px #999;
     z-index: 31;
+    background-size: 140% 130%;
+    background-position-x: -8.5vw;
+    background-position-y: -1vh;
   }
   .down{
     z-index:30;
@@ -1399,7 +1417,7 @@ body {
     height: 8vh;
     position: absolute;
     width: 15vw;
-    margin: 91vh 0 0 42vw;
+    margin: 85vh 0 0 42vw;
   }
   .down:hover{
     z-index: 31;
@@ -1408,7 +1426,7 @@ body {
     background-position:center;
     height: 8vh;
     width: 15vw;
-    margin: 91vh 0 0 42vw;
+    margin: 85vh 0 0 42vw;
   }
 .circle_kero{
     height: 35vh;
@@ -1419,13 +1437,13 @@ body {
 }
   .imgNata{
     height: 23vh;
-    margin-top: 16vh;
-    right: 16vw;
+    margin-top: 3vh;
+    right: 20vw;
   }
   .bt_home_2{
-    height: 45vh ;
+    height: 43vh ;
     margin-left:9vw;
-    margin-top: 7vh;
+    margin-top: -4vh;
   }
   .image_logN{
     height: 37vh;
@@ -1435,18 +1453,18 @@ body {
   .author_dos{
     text-align:left;
     right: 10vw;
-    margin-top:46vh;
+    margin-top:42vh;
     font-size: 1.4em;
-    font-weight: 600;
+    font-weight: 500;
   }
   .description{
     text-align:left;
-    width: 85vw;
+    width: 82vw;
     height: 20vh;
     position: absolute;
-    margin-top: 52vh;
-    margin-left: 7vw;
-    font-size: 0.98em;
+    margin-top: 48.5vh;
+    margin-left: 9vw;
+    font-size: 0.9em;
     text-align:justify;
     text-justify:inter-word;
     font-family: 'lora';
@@ -1454,22 +1472,22 @@ body {
   }
   .list_home2{
     left: 10vw;
-    margin-top: 40vh;
+    margin-top: 33vh;
   }
   .list_home2:hover{
     left: 13vw;
-    margin-top: 40vh;
+    margin-top: 33vh;
   }
   #curriculum{
     font-size:0.9em;
   }
   .list_proyect{
     left: 10vw;
-    margin-top: 44vh;
+    margin-top: 38vh;
   }
   .list_proyect:hover{
     left: 13vw;
-    margin-top: 44vh;
+    margin-top: 38vh;
   }
   #proyect{
     font-size: 0.9em;
@@ -1539,11 +1557,12 @@ body {
     z-index: 35;
     opacity: 0.85;
     background-size: 100% 100%;
-    height: 20vh;
+    height: 17vh;
     position: absolute;
-    margin-left: 29vw;
-    margin-top: 16.5vh;
+    margin-left: 39vw;
+    margin-top: 12.5vh;
     transform: rotate(-9deg);
+
   }
   #dec3{
     z-index: 30;
@@ -1565,11 +1584,11 @@ body {
     border-radius: 10px;
   }
   #bienvenida{
-    width: 102vw;
+    width: 95vw;
     margin-top: 42vh;
     color: #faf5e4;
     font-size: 0.99em;
-    margin-left: -1vw;
+    margin-left: 2vw;
     font-family: 'lora';
     font-weight: lighter;
     backdrop-filter: blur(2px);
