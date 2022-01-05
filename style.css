@@ -467,9 +467,10 @@ body {
   left: 2vw;
   margin-top: 0.5vh;
   filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
-  background-image:url("images/logosfimg.png");
+  background-image:url("images/log_new.png");
   background-repeat: no-repeat;
-  background-size: 110% 100%;
+  background-size: 120% 120%;
+  background-position-x: -0.7vw;
   opacity: 0.95;
 }
 #title_work{
@@ -562,7 +563,7 @@ body {
   z-index: 40;
   position: absolute;
   background-image: url("images/hexacta.png");
-  background-size: 100% 101%;
+  background-size: 101% 101%;
   background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
@@ -792,8 +793,9 @@ body {
   border-radius: 20px;
   z-index: 40;
   position: absolute;
-  background-image: url("images/data_lovers.png");
-  background-size: 100% 100%;
+  background-image: url("images/dataLover.png");
+  background-size: 112% 101%;
+  background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
   /* box-shadow: 0 0 15px 5px rgba(0,0,0,0.4); */
