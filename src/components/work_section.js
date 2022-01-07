@@ -110,7 +110,7 @@ export function work ($containerGeneral){
     img_proyect_talent.appendChild(title_talent);
     const title_talent2 = document.createElement("a");
     title_talent2.setAttribute("id", "title_talent2");
-    title_talent2.setAttribute("href","https://nataliasita.github.io/reto-Hexacta/#/");
+    title_talent2.setAttribute("href","https://xenodochial-meitner-9f4abd.netlify.app/#/");
     img_proyect_talent.appendChild(title_talent2);
     const touch_talent = document.createElement("img");
     touch_talent.src='images/hand.png';
@@ -148,7 +148,7 @@ export function work ($containerGeneral){
     img_proyect_nasa.appendChild(title_nasa);
     const title_nasa2 = document.createElement("a");
     title_nasa2.setAttribute("id", "title_nasa2");
-    title_nasa2.setAttribute("href","http://ec2-18-221-34-104.us-east-2.compute.amazonaws.com/#home");
+    title_nasa2.setAttribute("href","https://boring-bardeen-67e752.netlify.app");
     img_proyect_nasa.appendChild(title_nasa2);
     const description_nasa = document.createElement("div");
     description_nasa.className=("description_nasa");
@@ -182,7 +182,7 @@ export function work ($containerGeneral){
     img_proyect1.appendChild(title_1);
     const title_2 = document.createElement("a");
     title_2.setAttribute("id", "title_2");
-    title_2.setAttribute("href","https://nataliasita.github.io/BOG002-data-lovers/");
+    title_2.setAttribute("href","https://cranky-goldstine-ebf128.netlify.app/");
     img_proyect1.appendChild(title_2);
     const description_lovers = document.createElement("div");
     description_lovers.className=("description_lovers");
